@@ -1,5 +1,8 @@
+@import "header";
+@import "footer";
+
 body {
-  background-color: red;
+  background-color: lavender;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
