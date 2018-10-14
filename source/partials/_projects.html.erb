@@ -1,18 +1,20 @@
 <div class="page-wrapper">
-  <h2>Projects</h2>
-  <div>
-    Welcome to all my projecttttsss!
-  </div>
-  <div class="project-cards">
-    <% blog.articles.each do |article| %>
-      <% link_to article.url do %>
-        <div class="project-card">
-          <div class="title">
-            <%= article.data.title %>
-          </div>
-        </div>
-      <% end %>
-
-    <% end %>
+  <projects>
+    <h2>Projects</h2>
+    <div>
+      Welcome to all my projecttttsss!
     </div>
+    <div class="project-cards">
+      <% blog.articles.each do |article| %>
+        <% link_to article.url do %>
+          <div class="project-card">
+            <div class="title">
+              <%= article.data.title %>
+            </div>
+          </div>
+        <% end %>
+
+      <% end %>
+      </div>
+    </projects>
   </div>

@@ -1,31 +1,45 @@
 header {
-  padding-top: 2rem;
-  background-color: yellow;
+  mix-blend-mode: screen;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
   // display: flex;
   align-items: center;
-
+  position:fixed;
+  left: 0;
+  right: 0;
 }
 
+header>div {
+  padding: 0 2rem;
+}
 .nav-menu-links{
   list-style: none;
+  text-align: right;
 }
 
 .nav-menu-links>li{
   display:inline;
   padding: 0 1rem;
+  color: orange;
 }
 
+.logo{
+  text-align: left;
+}
 
 
 @media screen and (max-width: 540px){
   header {
+    position: fixed;
     grid-template-columns: 100vw;
+    grid-auto-rows: minmax(60px, auto);
   }
   header>div{
     padding: 0!important;
+
   }
 }
+
+

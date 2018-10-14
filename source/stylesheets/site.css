@@ -17,6 +17,9 @@ body {
 
 .page-wrapper{
     padding: 5rem;
+    width: 100vw;
+    height: 70vh;
+    border: 2px solid gold;
 }
 
 a {
@@ -26,6 +29,10 @@ a {
   &:hover {
     color: rgba(#000, 0.6);
   }
+}
+
+.banner{
+  padding-top: 10rem;
 }
 
 
