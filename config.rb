@@ -47,5 +47,5 @@ page '/*.txt', layout: false
 
 
 activate :blog do |blog|
- blog.prefix = "projects/{category}/{title}.html"
+ blog.prefix = "projects"
 end

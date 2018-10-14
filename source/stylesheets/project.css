@@ -1,0 +1,16 @@
+
+.project-cards {
+  height: 300px;
+  width: auto;
+  border: 3px solid gold;
+  display: flex;
+  flex-direction: horizontal;
+  margin: 2em;
+}
+
+.project-card {
+
+  background-color: pink;
+  height: 100%;
+  border: 1px solid white;
+}
