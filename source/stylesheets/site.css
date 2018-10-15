@@ -16,10 +16,11 @@ body {
 }
 
 .page-wrapper{
-    padding: 5rem;
     width: 100vw;
-    height: 70vh;
+    height: auto;
     border: 2px solid gold;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 a {
@@ -32,7 +33,28 @@ a {
 }
 
 .banner{
-  padding-top: 10rem;
+  width: 30rem;
+  margin: 0 auto;
+  // padding-top: 10rem;
 }
 
+.banner-grid {
+  display: grid;
+  grid-template-columns: repeat( 4, minmax(100px, 1fr) );
+  grid-template-rows: repeat(2, auto-fill)
+
+}
+.banner-grid>h1{
+  grid-column: 1 / span 2;
+  grid-row: 1 / 2;
+  // background-color: red;
+  font-size: 5rem;
+  margin: 2rem;
+}
+
+.banner-subtitle{
+  grid-column: 3 / span 2;
+  grid-row: 2 ;
+  border: 1px solid blue;
+}
 
