@@ -1,34 +1,33 @@
 header {
   mix-blend-mode: screen;
   display: flex;
-  // grid-template-columns: 1fr;
-  // grid-auto-rows: minmax(100px, auto);
   text-align: center;
-  // display: flex;
   align-items: center;
-  position:fixed;
-  left: 0;
-  right: 0;
+  position: relative;
 }
 
 header>div {
-
   margin: 0 auto;
 }
 .nav-menu-links{
-  width:30rem;
   list-style: none;
   padding-inline-start: 0px!important;
   display: flex;
-  justify-content: space-between;
+  position:fixed;
+  left: 50vw;
+  top: 1rem;
+  width: auto;
 }
 
-.nav-menu-links>li{
-  width: 100%;
+.nav-menu-link {
+  width: 44px;
+  height:44px;
+  border-radius: 50%;
+  background-color: gray;
   display:inline;
-  padding: 0 1rem;
-  color: orange;
+  color: gray;
   font-weight: bolder;
+  margin: 0 1rem;
 }
 
 .logo{
