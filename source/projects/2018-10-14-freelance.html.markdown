@@ -7,8 +7,6 @@ tags:
 ---
 
 
-
-
 <div class="page-wrapper">
   This is #Freelance
 

@@ -1,0 +1,17 @@
+
+  <projects>
+    <div class="project-cards">
+
+      <% blog.articles.reverse.each do |article| %>
+        <% link_to article.url do %>
+          <div class="project-card  <%= article.data.title.downcase %>">
+            <h1 class="project-title <%= article.data.title.downcase %>-title">
+              <%= article.data.title %>
+            </h1>
+
+          </div>
+        <% end %>
+
+      <% end %>
+      </div>
+    </projects>
