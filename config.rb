@@ -49,3 +49,6 @@ page '/*.txt', layout: false
 activate :blog do |blog|
  blog.prefix = "projects"
 end
+
+
+page "/projects/*", :layout => "project"

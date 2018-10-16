@@ -6,7 +6,7 @@ tags: UX, UI, Design, Wechat
 
 ---
 
-<div style="background-color: red; height: 5rem;">
-  This is the ubisoft profile page
+<div>
+  this is ubisoft
 </div>
 
