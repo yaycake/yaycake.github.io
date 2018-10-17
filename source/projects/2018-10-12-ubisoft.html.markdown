@@ -2,11 +2,26 @@
 
 title: Ubisoft
 date: 2018-10-12 09:40 UTC
-tags: UX, UI, Design, Wechat
+subtitle: A Gamer's Mobile Experience at China Joy 2018
+tags:
+  - UX
+  - UI
+  - Design
+  - Wechat
+previewimage: "image.png"
+links:
+  - link1
+  - utube
 
 ---
 
-<div>
-  this is ubisoft
-</div>
+  <div class="project-container">
+
+    <!-- <div class="project-text">
+    <h2>this is ubisoft!</h2>
+      Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id.
+    </div>
+ -->
+  </div>
+
 

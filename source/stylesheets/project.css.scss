@@ -1,35 +1,11 @@
 .project-wrapper {
-  height: auto;
-}
-
-
-
-.project-banner{
+  height: 100%;
   width: 30rem;
   margin: 0 auto;
-  margin-top: 8rem;
-  // padding-top: 10rem;
+  border: 2px dashed pink;
 }
 
-.banner-grid {
-  display: grid;
-  grid-template-columns: repeat( 4, minmax(100px, 1fr) );
-  grid-template-rows: repeat(2, auto-fill)
 
-}
-.banner-grid>h1{
-  grid-column: 1 / span 2;
-  grid-row: 1 / 2;
-  font-size: 5rem;
-  text-align: left;
-  margin: 0!important;
-  background-clip: text;
 
-}
 
-.previewimage{
-  height: 300px;
-  width: 30em;
-  background-color: pink;
-  margin: 2rem 0;
-}
+
