@@ -1,20 +1,24 @@
 footer {
-  position: fixed;
-  bottom: 1rem;
-  // width: 100vw;
   font-weight: bolder;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+  // border: 1px solid aqua;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 
+footer>div{
+  position: relative;
+  width:30rem;
+  margin: 0 auto;
 }
 
 footer>div>h2{
-  margin: 0 auto;
-  width: 30rem;
+  width: auto;
+
   height: auto;
   text-align: right;
   padding-bottom: 1rem;
+  background-color: rgba(255,255,255,.5);
 }
 
 footer>div>h2{

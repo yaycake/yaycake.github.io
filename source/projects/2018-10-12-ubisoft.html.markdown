@@ -14,14 +14,17 @@ links:
   - utube
 
 ---
+### The Biggest Gaming Convention in Asia
+
+Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus indoctum, his in reque omittam neglegentur. Ea cum quot oportere, movet interpretaris ius te, ex vis eros quaeque omittam.
+
 
   <div class="project-container">
-
-    <!-- <div class="project-text">
-    <h2>this is ubisoft!</h2>
-      Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id.
+    <div class="project-content-quote">
+      <div class="quote-text">
+      </div>
+      <div class="quote-image"></div>
+      <div>
+      </div>
     </div>
- -->
   </div>
-
-
