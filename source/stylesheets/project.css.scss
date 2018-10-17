@@ -6,7 +6,21 @@
   text-align: left;
 }
 
+.project-wrapper>p {
+  line-height: 1.25rem;
+}
 
+blockquote {
+  width: 50%;
+  border: 1px dotted pink;
+  margin: 0;
+  padding-left: 50%;
+}
+
+blockquote>p {
+  text-align: left;
+  float: right;
+}
 
 
 

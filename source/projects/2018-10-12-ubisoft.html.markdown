@@ -19,7 +19,7 @@ links:
 Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus indoctum, his in reque omittam neglegentur. Ea cum quot oportere, movet interpretaris ius te, ex vis eros quaeque omittam.
 
 
-  <div class="project-container">
+ <!--  <div class="project-container">
     <div class="project-content-quote">
       <div class="quote-text">
       </div>
@@ -27,4 +27,12 @@ Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id
       <div>
       </div>
     </div>
-  </div>
+  </div> -->
+
+> ### Here's some quote text
+>
+> ### that is
+>
+> ### mutiple lines
+
+  Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus i
