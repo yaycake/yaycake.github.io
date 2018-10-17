@@ -44,3 +44,11 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+
+activate :blog do |blog|
+ blog.prefix = "projects"
+end
+
+
+page "/projects/*", :layout => "project"

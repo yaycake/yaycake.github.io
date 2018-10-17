@@ -1,0 +1,51 @@
+header {
+  mix-blend-mode: screen;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+header>div {
+  margin: 0 auto;
+}
+.nav-menu-links{
+  list-style: none;
+  padding-inline-start: 0px!important;
+  display: flex;
+  position:fixed;
+  left: 50vw;
+  top: 1rem;
+  width: auto;
+}
+
+.nav-menu-link {
+  width: 44px;
+  height:44px;
+  border-radius: 50%;
+  background-color: gray;
+  display:inline;
+  color: gray;
+  font-weight: bolder;
+  margin: 0 1rem;
+  margin-top: 1rem;
+}
+
+.logo{
+  text-align: left;
+}
+
+
+@media screen and (max-width: 540px){
+  header {
+    position: fixed;
+    grid-template-columns: 100vw;
+    grid-auto-rows: minmax(60px, auto);
+  }
+  header>div{
+    padding: 0!important;
+
+  }
+}
+
+

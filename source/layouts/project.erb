@@ -1,0 +1,22 @@
+
+
+    <%= partial '/partials/head' %>
+
+    <%= partial '/partials/header' %>
+
+      <div class="page-wrapper">
+
+        This is Project.erb
+
+
+        <%= current_page.data.title %>
+        <%= current_page.data.date %>
+
+      </div>
+
+
+    <%= yield %>
+
+    <%= partial '/partials/footer' %>
+
+    <%= partial '/partials/foot' %>
