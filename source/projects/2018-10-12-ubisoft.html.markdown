@@ -3,6 +3,7 @@
 title: Ubisoft
 date: 2018-10-12 09:40 UTC
 subtitle: A Gamer's Mobile Experience at China Joy 2018
+product: Book demos, win prizes, stream live shows, and share event posts at China Joy through WeChat.
 tags:
   - UX
   - UI
@@ -10,15 +11,13 @@ tags:
   - Wechat
 previewimage: "image.png"
 links:
-  - link1
-  - utube
+  - Ubisoft
+  - ChinaJoy
 
 ---
 ### The Biggest Gaming Convention in Asia
 
 Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus indoctum, his in reque omittam neglegentur. Ea cum quot oportere, movet interpretaris ius te, ex vis eros quaeque omittam.
-
-
  <!--  <div class="project-container">
     <div class="project-content-quote">
       <div class="quote-text">
@@ -29,10 +28,10 @@ Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id
     </div>
   </div> -->
 
-> ### Here's some quote text
->
-> ### that is
->
-> ### mutiple lines
+> ### Here's some quote text that is mutiple lines
 
   Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus i
+
+![icons](../images/journey.jpg)
+
+

@@ -6,8 +6,14 @@
   text-align: left;
 }
 
-.project-wrapper>p {
+.project-wrapper>p, .project-wrapper>h3 {
   line-height: 1.25rem;
+  padding: 1rem;
+}
+
+.project-wrapper > p > img {
+  width: 100%;
+  height: auto;
 }
 
 blockquote {
@@ -22,5 +28,8 @@ blockquote>p {
   float: right;
 }
 
+blockquote>h3{
+  // margin: 1.25rem;
+}
 
 
