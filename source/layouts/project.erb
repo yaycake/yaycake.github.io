@@ -4,18 +4,29 @@
 
     <%= partial '/partials/header' %>
 
+
+        <div class="project-banner">
+          <div class="banner-grid">
+            <h1><%= current_page.data.title %></h1>
+            <h3 class="banner-subtitle">
+              <%= current_page.data.tags %>
+            </h3>
+          </div>
+          <div class="previewimage"></div>
+        </div>
+
+
+
       <div class="page-wrapper">
-
         This is Project.erb
+        <br>
 
-
-        <%= current_page.data.title %>
+        <%= yield %>
+        <br>
         <%= current_page.data.date %>
 
       </div>
 
-
-    <%= yield %>
 
     <%= partial '/partials/footer' %>
 
