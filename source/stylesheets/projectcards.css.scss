@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 4rem;
   position: relative;
 
 }
@@ -15,19 +15,19 @@
   align-items: center;
   background-color: lavender;
   height: 100%;
-  border: 1px solid white;
+  border: 2px solid white;
   transition: all .5s ease-in-out;
 }
 
 
 .project-title {
-  font-size: 5rem;
+  // font-size: 5rem;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  top: -4rem;
+  left: 15rem;
   display: none;
+  opacity: 1;
+  text-align: left;
   /*transition: all .2s ease-in-out;*/
 }
 
@@ -37,15 +37,14 @@
   /*display: all;*/
 }
 
+a {
+  color: black;
+
+}
+
 .freelance.project-card:hover .freelance-title{
-  display: block;
-  position: absolute;
-  width:100%;
-  z-index: 10;
-  top: 0;
-  bottom: 0;
-  height: 25%;
-  width: 100%;
+display: block;
+
 
 
 }
@@ -53,35 +52,30 @@
 
 .ubisoft.project-card:hover .ubisoft-title{
   display: block;
- height: 25%;
-  width: 100%;
+
 
 }
 
 .yaochima.project-card:hover .yaochima-title{
   display: block;
- height: 25%;
-  width: 100%;
+
 
 }
 
 .horizons.project-card:hover .horizons-title{
   display: block;
- height: 25%;
-  width: 100%;
+
 
 }
 
 .wagon.project-card:hover .wagon-title{
   display: block;
-   height: 25%;
-  width: 100%;
+
 
 }
 
 .machine.project-card:hover .machine-title{
   display: block;
- height: 25%;
-  width: 100%;
+
 
 }
