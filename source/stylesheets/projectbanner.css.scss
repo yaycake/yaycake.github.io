@@ -48,7 +48,7 @@
 .introimage{
   height: 300px;
   width: 30em;
-  background-color: pink;
+  // background-color: pink;
   margin: 2rem 0;
 }
 
@@ -69,6 +69,7 @@
   right: 1.5rem;
   text-align: left;
   line-height: 1.75rem;
-
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.2)
 }
 
