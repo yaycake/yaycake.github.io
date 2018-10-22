@@ -8,11 +8,12 @@ tags:
   - UI
   - Design
   - Wechat
-previewimage: "../images/projects/ubisoft/cjbanner.jpg"
+previewimage: ../../../../images/projects/cjbanner.jpg
 links:
   - Ubisoft
   - ChinaJoy
 website: https://www.ubisoft.com/en-US/studio/shanghai.aspx
+reel: thegraceyang.com
 
 
 

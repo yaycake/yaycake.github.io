@@ -11,18 +11,16 @@
           <% if current_page.data.website != nil %>
             <a class="project-link" href="<%= current_page.data.website %>"><img class="project-icon" src="../../../../images/icons/icon-web.png"></a>
             <% else %>
-            nothing
           <% end %>
           <% if current_page.data.reel != nil %>
             <a class="project-link" href="<%= current_page.data.website %>"><img class="project-icon" src="../../../../images/icons/icon-video.png"></a>
             <% else %>
-
           <% end %>
 
         </div>
       </div>
       <div class="introimage" style=" background-size:cover; background-position: center;
-      background-image: url('../../../../images/projects/cjbanner.jpg');">
+      background-image: url(<%= current_page.data.previewimage %>");">
         <div style="color: white;" class="project-intro-text">
             <h3>
 
