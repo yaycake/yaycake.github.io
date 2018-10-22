@@ -11,7 +11,11 @@ tags:
 previewimage: "../images/projects/ubisoft/cjbanner.jpg"
 links:
   - Ubisoft
-  - http://www.chinaexhibition.com
+  - ChinaJoy
+website: https://www.ubisoft.com/en-US/studio/shanghai.aspx
+
+
+
 
 ---
 

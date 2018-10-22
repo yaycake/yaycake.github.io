@@ -3,7 +3,6 @@
   width: 30rem;
   margin: 0 auto;
   margin-top: 8rem;
-  // padding-top: 10rem;
 }
 
 .project-banner-grid {
@@ -32,9 +31,7 @@
   grid-row: 3/4;
   text-align: right;
   display: flex;
-  flex-direction: row;
-
-
+  flex-direction: row-reverse;
 }
 
 .project-link {
@@ -48,7 +45,6 @@
 .introimage{
   height: 300px;
   width: 30em;
-  // background-color: pink;
   margin: 2rem 0;
 }
 

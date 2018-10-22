@@ -6,10 +6,19 @@
         <h3 class="project-banner-subtitle">
           <%= current_page.data.subtitle %>
         </h3>
+
         <div class="project-links">
-          <% current_page.data.links.each do |link| %>
-            <div class="project-link"><%= link %></div>
+          <% if current_page.data.website != nil %>
+            <a class="project-link" href="<%= current_page.data.website %>"><img src="../../../../images/icons/icons-web.svg"></a>
+            <% else %>
+            nothing
           <% end %>
+          <% if current_page.data.reel != nil %>
+            <a class="project-link" href="<%= current_page.data.reel %>"> Reel </a>
+            <% else %>
+
+          <% end %>
+
         </div>
       </div>
       <div class="introimage" style=" background-size:cover; background-position: center;
