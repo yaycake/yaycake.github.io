@@ -8,7 +8,8 @@
 .project-banner-grid {
   display: grid;
   grid-template-columns: repeat( 4, minmax(100px, 1fr) );
-  grid-template-rows: repeat(3, auto-fill)
+  grid-template-rows: repeat(3, auto-fill);
+  grid-row-gap: 1rem;
 
 }
 .project-banner-grid>h1{

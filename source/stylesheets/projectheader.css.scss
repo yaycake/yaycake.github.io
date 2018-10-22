@@ -1,17 +1,19 @@
 .project-header-links {
-  list-style: none;
-  // padding-inline-start: 0px!important;
-  display: flex;
-  position: fixed;
-  right: 21vw;
-  top: 1rem;
-  width: auto;
-  flex-direction: row-reverse;
+  width: 30rem;
   mix-blend-mode: screen;
-  z-index: 12;
-
+  height:5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+  // flex-direction: row-reverse;
 }
 
+.project-header-links > a {
+  text-decoration: none;
+
+}
 .project-header-link {
 
 

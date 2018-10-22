@@ -4,18 +4,29 @@
 
 
 
-      <%= partial '/partials/projectheader' %>
+    <%= partial '/partials/projectheader' %>
 
     <%= partial '/partials/projectbanner' %>
 
-    <div class="project-wrapper">
+    <div class="project-wrapper" style="position: relative;">
       <!-- Before Project Yield on project.erb
       <br> -->
 
       <%= yield %>
       <br>
       <p> <em> This project was last updated on <%= current_page.data.date %></em></p>
+      <br>
+      <h2>Other Projects</h2>
+      <%= partial '/partials/projectcards' %>
+      <br>
+      <br>
+      <h2 style="text-align: right;">Contact Me</h2>
+      <br>
     </div>
+
+
+
+
 
     <!-- <%= partial '/partials/footer' %> -->
 
