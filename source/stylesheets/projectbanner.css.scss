@@ -28,11 +28,11 @@
   margin: 0;
 }
 .project-links{
-  grid-column: 1/ span 2;
+  grid-column: 3/ span 2;
   grid-row: 3/4;
-  text-align: right;
+  text-align: left;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .project-icon {
@@ -41,10 +41,9 @@
 }
 
 .project-link {
-
   overflow: hidden;
-  margin-right: 0;
-  margin: 0 1rem;
+  margin: 1rem 0;
+  // margin: 0 1rem;
 }
 
 

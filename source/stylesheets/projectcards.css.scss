@@ -15,26 +15,36 @@
   align-items: center;
   background-color: lavender;
   height: 100%;
-  border: 2px solid white;
+  border: 1.5px solid white;
   transition: all .5s ease-in-out;
+  filter: grayscale(1);
+  background-position: left;
+  background-size: cover;
 }
+
+
 
 
 .project-title {
-  // font-size: 5rem;
-  position: absolute;
+  font-size: 5rem;
+  // position: absolute;
   top: -4rem;
-  right: 16.75rem;
+  // right: 16.75rem;
   display: none;
-  opacity: 1;
-  text-align: right;
-  /*transition: all .2s ease-in-out;*/
+  // opacity: 1;
+  text-align: left;
+  color: white;
+  transition: all .2s ease-in-out;
+}
+
+.project-cards>a {
+  text-decoration: none;
 }
 
 .project-card:hover {
-  background-color: orange;
+  // filter:none;
   /*transform: scale(1.1);*/
-  /*display: all;*/
+  display: all;
 }
 
 a {

@@ -8,7 +8,7 @@ tags:
   - UI
   - Design
   - Wechat
-previewimage: "image.png"
+previewimage: ../../../../images/projects/stibanner.jpg
 links:
   - utube
   - fb
