@@ -8,7 +8,7 @@ tags:
   - UI
   - Design
   - Wechat
-previewimage: ../../../../images/projects/frebanner.jpg
+previewimage: ../../../../images/projects/frebanner.png
 links:
   - utube
   - fb

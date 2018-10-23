@@ -16,7 +16,7 @@
   background-color: lavender;
   height: 100%;
   border: 1.5px solid white;
-  transition: all .5s ease-in-out;
+  transition: all 1s ease-in-out;
   filter: grayscale(1);
   background-position: left;
   background-size: cover;
@@ -35,6 +35,8 @@
   text-align: left;
   color: white;
   transition: all .2s ease-in-out;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .project-cards>a {
@@ -45,7 +47,11 @@
   // filter:none;
   /*transform: scale(1.1);*/
   display: all;
+  filter: none;
+
 }
+
+.project-card:hover >
 
 a {
   color: black;
