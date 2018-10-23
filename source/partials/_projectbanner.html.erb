@@ -6,9 +6,9 @@
 
       <div class="project-banner-grid">
         <h1><%= current_page.data.title %></h1>
-        <h3 class="project-banner-subtitle">
+        <h2 class="project-banner-subtitle">
           <%= current_page.data.subtitle %>
-        </h3>
+        </h2>
         <div class="project-links">
           <% if current_page.data.website != nil %>
             <a class="project-link" href="<%= current_page.data.website %>"><img class="project-icon" src="../../../../images/icons/icon-web.png"></a>
@@ -21,6 +21,11 @@
 
         </div>
       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
       <div class="introimage" style=" background-size:cover; background-position: center;
       background-image: url(<%= current_page.data.previewimage %>");">
         <div style="color: white;" class="project-intro-text">
