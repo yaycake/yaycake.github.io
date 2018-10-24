@@ -32,7 +32,8 @@ body {
 
 a {
   // color: rgba(#000, 0.7);
-
+  text-decoration: none;
+  color: black;
   &:focus,
   &:hover {
     // color: rgba(#000, 0.6);
@@ -47,7 +48,7 @@ a {
   width: 30vw;
   min-width: 375px;
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
   // padding-top: 10rem;
 }
 
