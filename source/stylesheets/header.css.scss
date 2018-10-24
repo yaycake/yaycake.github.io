@@ -1,5 +1,5 @@
 header {
-  mix-blend-mode: screen;
+  // mix-blend-mode: screen;
   display: flex;
   text-align: center;
   align-items: center;
@@ -14,7 +14,7 @@ header>div {
   list-style: none;
   padding-inline-start: 0px!important;
   display: flex;
-  position:fixed;
+  position: absolute;
   left: 50vw;
   top: 1rem;
   width: auto;
@@ -24,7 +24,6 @@ header>div {
   width: 44px;
   height:44px;
   border-radius: 50%;
-  background-color: gray;
   display:inline;
   color: gray;
   font-weight: bolder;

@@ -1,27 +1,29 @@
 ---
-
 title: Freelance
 date: 2018-10-14 07:02 UTC
-subtitle: Branding & Digital Strategy
+subtitle: Branding, Marketing, Design, & Consulting
+product: I help brands strategize product launches, campaigns, and more through ideation, creation, technology, and execution.
 tags:
   - UX
   - UI
   - Design
-  - Wechat
+  - Marketing
+  - Brand Strategy
 previewimage: ../../../../images/projects/frebanner.png
-links:
-  - utube
-  - fb
-  - IG
-
 ---
 
+## Ideation & Discovery
 
-<div class="project-container">
-    <h2 style="text-align: left;">this is freelance!</h2>
-    <div class="project-text">
+I am open to collaborate remotely on projects of varying scale-- I have managed and worked with large teams from different departments (from tech to operations) as well as individuals as clients.
 
-      Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus indoctum, his in reque omittam neglegentur. Ea cum quot oportere, movet interpretaris ius te, ex vis eros quaeque omittam. Laudem soluta vix te, soleat lucilius ullamcorper est no. Omnis delectus suavitate no has.
+## Creative Strategy & Technology
 
-  </div>
-  </div>
+## Planning & Collaboration
+
+## Execution & Follow Through
+
+My experiences in marketing, workflow, and creative design build upon each other to provide a smart, well-rounded approach to mapping user experience workflows, building a brand and or product.
+
+## Clients Include
+
+The Food Ranger, Martha Stewart Living Omnimedia, Mandarin Blueprint, The Talking Body, Paw Prints, Le Wagon, The Range Bar & Grill, Crate Coffee, King Sizzle Sausages, Second Hand Second Story, and more.

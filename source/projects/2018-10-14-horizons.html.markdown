@@ -1,19 +1,16 @@
 ---
-
 title: Horizons
 date: 2018-10-14 06:58 UTC
-subtitle: Marketing direction & digital strategy
+subtitle: Marketing, Digital Strategy, and Production
+product: An annual forum in New York City that examines the role of psychedelic drugs and plant medicines in science, medicine, culture and spirituality.
 tags:
   - UX
   - UI
   - Design
   - Wechat
 previewimage: ../../../../images/projects/horbanner.png
-links:
-  - utube
-  - fb
-  - IG
-
+website: https://www.horizonsnyc.org
+reel: https://vimeo.com/237699822
 ---
 
 

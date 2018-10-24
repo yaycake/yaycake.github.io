@@ -2,12 +2,13 @@
 title: Yaochima
 date: 2018-10-14 06:57 UTC
 subtitle: Wanna eat? Gotta shake it!
-product: An MP to help you quickly discover new neighborhood eats
+product: A WeChat mini program to  quickly discover new neighborhood eats
 tags:
   - UX
   - UI
   - Design
   - Wechat
+  - Front End Development
 previewimage: ../../../../images/projects/yaobanner.png
 website: http://yaochima.shanghaiwogeng.com
 reel: https://www.youtube.com/embed/eYaEUeVMWH0

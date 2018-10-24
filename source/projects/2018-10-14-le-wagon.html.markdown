@@ -1,28 +1,40 @@
 ---
-
 title: Le Wagon
 date: 2018-10-14 06:57 UTC
-subtitle: Teaching Product Design & Student Mentorship
+subtitle: Creative design as a practice and discipline
+product: Product Design sprints, Student Mentorshop, Front End Development, WeChat Mini Programs
 tags:
   - UX
   - UI
   - Design
-  - Wechat
+  - Sketch
+  - Illustrator
+  - HTML/CSS
 previewimage: ../../../../images/projects/lebanner.png
-links:
-  - utube
-  - fb
-  - IG
-
+website: http://www.lewagon.com/chengdu
+reel: https://youtu.be/65qa8VihQI0
 ---
 
+## Le Wagon Chengdu
+
+opened in 2017 in Chengdu, Sichuan. Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
 
 
-<div class="project-container">
-    <h2 style="text-align: left;">this is le wagon!</h2>
-    <div class="project-text">
+## UX & UI Design Sprints
 
-      Lorem ipsum dolor sit amet, est ne aperiri sapientem, inermis neglegentur quo id. Vim latine delicatissimi cu, autem dissentiunt eam cu. Quaeque ponderum necessitatibus sea et, vel eu minim ludus indoctum, his in reque omittam neglegentur. Ea cum quot oportere, movet interpretaris ius te, ex vis eros quaeque omittam. Laudem soluta vix te, soleat lucilius ullamcorper est no. Omnis delectus suavitate no has.
+I taught the first product design sprint for the very first batch of students in Chengdu in 2017, covering product development, creating user stories, zoning & mockups in Sketch, and prototyping with Invision and/or Marvel.
 
-  </div>
-  </div>
+
+## Projects & Demo Day
+
+While I myself went on to attend and graduate from the following batch so I could improve how I work and communicate with teams of developers, I continue facilitating the product sprint for Le Wagon Chengdu and often mentor student projects on the front end.
+
+## Startup Weekend
+
+I am also involved in Chengdu's local Startup Weekend conference and mentor through product design at their hackathon events, working with local creative entrepreneurs and software engineers to shapen and sharpen their product ideas.
+
+## Ladies in Tech
+
+
+
+## High School Tech Bootcamp
