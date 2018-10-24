@@ -1,6 +1,7 @@
 
 .project-banner{
-  width: 30rem;
+  width: 30vw;
+  min-width: 375px;
   margin: 0 auto;
   margin-top: 8rem;
 }
@@ -10,8 +11,8 @@
   grid-template-columns: repeat( 4, minmax(100px, 1fr) );
   grid-template-rows: repeat(3, auto-fill);
   grid-row-gap: 1rem;
-
 }
+
 .project-banner-grid>h1{
   grid-column: 1 / span 2;
   grid-row: 1 / 2;
@@ -49,18 +50,16 @@
 
 .introimage{
   height: 300px;
-  width: 30em;
-  margin: 2rem 0;
+  width: 30vw;
+  min-width: 375px;
+  margin: 2rem auto;
+  position: relative;
 }
 
 .project-container {
   width: 100%;
   height: auto;
 
-}
-
-.introimage {
-  position: relative;
 }
 
 .project-intro-text{

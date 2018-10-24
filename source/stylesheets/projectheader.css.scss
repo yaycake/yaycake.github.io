@@ -1,5 +1,8 @@
 .project-header-links {
-  width: 30rem;
+  width: 30vw;
+  min-width: 375px;
+  -webkit-box-align: center;
+  position: relative;
   mix-blend-mode: screen;
   height:5rem;
   margin: 0 auto;

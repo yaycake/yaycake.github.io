@@ -19,10 +19,16 @@ body {
 }
 
 .page-wrapper{
-    height: auto;
-    // border: 2px solid gold;
-
+  height: 100%;
+  width: 30vw;
+  min-width: 375px;
+  min-width: 25rem;
+  // border: 2px solid pink;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 2rem;
 }
+
 
 a {
   // color: rgba(#000, 0.7);
@@ -38,7 +44,8 @@ a {
 }
 
 .banner{
-  width: 30rem;
+  width: 30vw;
+  min-width: 375px;
   margin: 0 auto;
   margin-top: 8rem;
   // padding-top: 10rem;
@@ -66,7 +73,5 @@ a {
   text-align: left;
   margin: 0;
 }
-
-// - - - - - - - - fucking with the background ani
 
 

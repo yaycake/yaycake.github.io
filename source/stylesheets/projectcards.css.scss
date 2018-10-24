@@ -1,6 +1,7 @@
 
 .project-cards {
-  width: 30rem;
+  width: 100%;
+  min-width: 375px;
   height: 325px;
   /*border: 3px solid gold;*/
   display: grid;
@@ -56,46 +57,28 @@ a {
 
 }
 
-.freelance.project-card:hover .freelance-title{
-display: block;
+.freelance.project-card:hover .freelance-title,
+.ubisoft.project-card:hover .ubisoft-title,
+.yaochima.project-card:hover .yaochima-title,
+.horizons.project-card:hover .horizons-title,
+.wagon.project-card:hover .wagon-title,
+.machine.project-card:hover .machine-title
+
+  {
+    display: block;
+  }
+
+.journey.project-card:hover .chengdu-title
+
+  {
+    display: block;
+    font-size: 3rem;
+  }
 
 
 
-}
-
-
-.ubisoft.project-card:hover .ubisoft-title{
-  display: block;
-
-
-}
-
-.yaochima.project-card:hover .yaochima-title{
-  display: block;
-
-
-}
-
-.horizons.project-card:hover .horizons-title{
-  display: block;
-
-
-}
-
-.wagon.project-card:hover .wagon-title{
-  display: block;
-
-
-}
-
-.machine.project-card:hover .machine-title{
-  display: block;
-}
-
-.machine.project-card:hover .machine-title{
-  display: block;
-}
-
-.journey.project-card:hover .chengdu-title {
-  display: block;
+@media screen and (max-width: 540px){
+  .project-card {
+    width:100%
+  }
 }
