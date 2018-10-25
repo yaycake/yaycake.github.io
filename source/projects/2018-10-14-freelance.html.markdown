@@ -12,17 +12,26 @@ tags:
 previewimage: ../../../../images/projects/frebanner.png
 ---
 
-## Ideation & Discovery
+![creative](../images/projects/free_1.png)
+
+## Creative Design
 
 I am open to collaborate remotely on projects of varying scale-- I have managed and worked with large teams from different departments (from tech to operations) as well as individuals as clients.
 
-## Creative Strategy & Technology
+![brand](../images/projects/free_2.png)
 
-## Planning & Collaboration
 
-## Execution & Follow Through
+![munchwich](../images/projects/free_3.png)
 
-My experiences in marketing, workflow, and creative design build upon each other to provide a smart, well-rounded approach to mapping user experience workflows, building a brand and or product.
+## Brand Strategy
+
+
+![wechat](../images/projects/free_4.png)
+
+## Execution & Code
+
+
+![stack](../images/projects/free_5.png)
 
 ## Clients Include
 

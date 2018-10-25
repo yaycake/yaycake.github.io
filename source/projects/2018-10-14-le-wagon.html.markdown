@@ -15,14 +15,17 @@ website: http://www.lewagon.com/chengdu
 reel: https://youtu.be/65qa8VihQI0
 ---
 
+![lewagon_cdu](../images/projects/le_1.png)
+
 ## Le Wagon Chengdu
 
 opened in 2017 in Chengdu, Sichuan. Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
 
-
 ## UX & UI Design Sprints
 
 I taught the first product design sprint for the very first batch of students in Chengdu in 2017, covering product development, creating user stories, zoning & mockups in Sketch, and prototyping with Invision and/or Marvel.
+
+![demoday](../images/projects/le_5.png)
 
 
 ## Projects & Demo Day
@@ -33,8 +36,13 @@ While I myself went on to attend and graduate from the following batch so I coul
 
 I am also involved in Chengdu's local Startup Weekend conference and mentor through product design at their hackathon events, working with local creative entrepreneurs and software engineers to shapen and sharpen their product ideas.
 
+![ladies_in_tech](../images/projects/le_2.png)
+
 ## Ladies in Tech
 
-
+![teach](../images/projects/le_4.png)
 
 ## High School Tech Bootcamp
+
+## Coverage
+http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/

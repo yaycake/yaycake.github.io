@@ -14,7 +14,19 @@ reel: https://www.youtube.com/embed/jNQcDpv_7ao
 
 ---
 
-##
+![fcchackathon](../images/projects/journey_1.png)
+
+![my_commute](../images/projects/journey_2.png)
+
+![explore](../images/projects/journey_3.png)
+
+![tourist_foreigner](../images/projects/journey_4.png)
+
+![panda_boss](../images/projects/journey_5.png)
+
+![locked](../images/projects/journey_6.png)
+
+![unlocked](../images/projects/journey_7.png)
 
 
 

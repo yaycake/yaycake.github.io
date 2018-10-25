@@ -14,21 +14,31 @@ website: http://yaochima.shanghaiwogeng.com
 reel: https://www.youtube.com/embed/eYaEUeVMWH0
 
 ---
-
+![discover](../images/projects/yao_1.png)
 
 ## Discover Places To Eat
 
 Yaochima is a WeChat Mini Program that helps you discover, explore, and find local Chengdu eats with a few shakes of your phone.
 
+![dianping](../images/projects/yao_2.png)
+
 ## The Challenge
 
 Local Chinese apps like Dianping or Meituan overwhelm users with endless and infinite possibilities of where to eat. In a city like Chengdu, where it's easy to drown in hot-pot or skewers, Yaochima helps free you from the paradox of choice.
+
+![yao_icons](../images/projects/yao_3.png)
 
 ## The Solution
 
 With each shake of your phone, Yaochima shows you a lottery of nearby restaurants within walking distance. Each result displays cuisine type and price range: if you don't like and lock either parameter and shake again, the cuisine and price range choices are filtered out of future results to truly help you narrow down and  make a quick and efficient decision.
 
+![share](../images/projects/yao_5.png)
+
 ## Local Spice
 
 To localize our mini program idea, we recorded, edited, adn added Sichuan exclamations to accompany each shake.
+
+## Le Wagon Batch #114 Final Project
+
+![whiteboard](../images/projects/yao_4.png)
 
