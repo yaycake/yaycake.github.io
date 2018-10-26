@@ -43,3 +43,7 @@ I work in HTML/CSS, Javascript, Ruby on Rails, and Markdown. Past WeChat Mini Pr
 ## Clients Include
 
 The Food Ranger, Martha Stewart Living Omnimedia, Mandarin Blueprint, The Talking Body, Paw Prints, Le Wagon, The Range Bar & Grill, Crate Coffee, King Sizzle Sausages, Second Hand Second Story, and more.
+
+## This Website
+
+Designed and coded by me. I am using Middleman to deploy to my static website to Github pages.
