@@ -1,6 +1,6 @@
 ---
 title: Freelance
-date: 2018-10-14 07:02 UTC
+date: 2018-10-26 07:15 UTC
 subtitle: Branding, Marketing, Design, & Consulting
 product: I help brands strategize product launches, campaigns, and more through ideation, creation, technology, and execution.
 tags:
@@ -12,7 +12,7 @@ tags:
 previewimage: ../../../../images/projects/frebanner.png
 ---
 
-## I Freak What I Got
+## Freaking What I Got
 
 As a former marketing manager and event producer, my shift towards User Experience was a no-brainer.
 
@@ -43,6 +43,8 @@ I work in HTML/CSS, Javascript, Ruby on Rails, and Markdown. Past WeChat Mini Pr
 ## Clients Include
 
 The Food Ranger, Martha Stewart Living Omnimedia, Mandarin Blueprint, The Talking Body, Paw Prints, Le Wagon, The Range Bar & Grill, Crate Coffee, King Sizzle Sausages, Second Hand Second Story, and more.
+
+I was also marketing director and producer for [Horizons NYC: Perspectives in Psychedelics](http://www.horizonsnyc.org).
 
 ## This Website
 

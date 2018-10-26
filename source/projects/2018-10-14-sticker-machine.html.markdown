@@ -53,9 +53,11 @@ This affected performance-- speed of the load and sticker lag-- which prompted u
 
 The language translation feature was later implemented, but could be improved: cross cultural translations and references was something we did not anticipate, but could very well become a worthy mission.
 
+>## Sticker Machine reached upwards of 10,000 visits within the 3-4 days from launch.
+
 ## Launch
 
-We hard-launched Sticker Machine at the end of August, 2018 to positive and enthusiastic reception. Sticker Machine reached upwards of 10,000 visits within the first 3-4 days of launch.
+We hard-launched Sticker Machine at the end of August, 2018 to positive and enthusiastic reception. Sticker Machine reached upwards of 10,000 visits within 3-4 days from launch.
 
 ![visits](../images/projects/sticker_3.png)
 
@@ -63,10 +65,13 @@ Generally, people find stickers through WeChat sticker share groups. While that 
 
 ## GIPHY
 
-[Giphy][https://www.giphy.com] is a website hosting a database of stickers. Accessing Giphy in China does not require a VPN.
+[Giphy](https://www.giphy.com) is a website hosting a database of stickers. Accessing Giphy in China does not require a VPN.
 
 ![poweredbygiphy](../images/projects/sticker_5.png)
 
-## Launch
+## Try It!
+
+Scan with your WeChat, or search "Sticker Machine" in WeChat for the mini program.
+
 ![stickermachine](../images/projects/sticker_6.png)
 <!-- ![poweredbygiphy](../images/projects/) -->

@@ -11,7 +11,12 @@
 
       <%= yield %>
       <br>
-      <p> <em> This project was last updated on <%= current_page.data.date %></em></p>
+      <div class="project-end">
+        <h2><%= current_page.data.title %></h2>
+        <p> <em>last updated on <%= current_page.data.date %></em>
+        </p>
+      </div>
+
       <br>
       <h2>Other Projects</h2>
       <%= partial '/partials/projectcards' %>

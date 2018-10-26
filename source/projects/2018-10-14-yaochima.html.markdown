@@ -27,9 +27,11 @@ Local Chinese apps like Dianping or Meituan overwhelm users with endless and inf
 
 ## The Design
 
-To eliminate the panic that accompanies the paradox of choice, the UX encouraged a simple "yes or no" attitude from the user by allowing them to consider a restaurant option in itself (vs. comparing one hot pot restaurant to ten other very similar hot pot restaurants). The UI + 'shake' effect boosted the 'friendliness' of the app-- an encouragement to play and try new neighborhood spots. This is a direct contrast to the overwhelming amount of options and information a customer sees on the typical Chinese restaurant review platforms.
+To eliminate the panic that accompanies the paradox of choice, the UX encouraged a simple "yes or no" attitude from the user by allowing them to consider a restaurant option in itself (vs. comparing one hot pot restaurant to ten other very similar hot pot restaurants).
 
 ![yao_icons](../images/projects/yao_3.png)
+
+The UI + 'shake' effect boosted the 'friendliness' of the app-- an encouragement to play and try new neighborhood spots. This is a direct contrast to the overwhelming amount of options and information a customer sees on the typical Chinese restaurant review platforms.
 
 ## The Solution
 
@@ -50,6 +52,8 @@ The inconsistent quality of images on Dianping was a design challenge I took the
 ## Local Spice
 
 To localize our mini program idea, we recorded, edited, and added Sichuan exclamations to accompany each shake.
+
+![sound](../images/projects/yao_6.jpeg)
 
 ## Le Wagon Batch #114 Final Project
 

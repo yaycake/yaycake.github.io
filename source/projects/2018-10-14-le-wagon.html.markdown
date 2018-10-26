@@ -15,15 +15,17 @@ website: http://www.lewagon.com/chengdu
 reel: https://youtu.be/65qa8VihQI0
 ---
 
-![lewagon_cdu](../images/projects/le_1.png)
-
 ## Le Wagon Chengdu
 
 Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
 
+![lewagon_cdu](../images/projects/le_1.png)
+
 ## UX & UI Design Sprints
 
 I taught the first product design sprint for the very first batch of students in Chengdu in 2017, covering product development, creating user stories, zoning & mockups in Sketch, and prototyping with Invision and/or Marvel.
+
+>##Le Wagon is ranked the #1 coding school on Switchup.org
 
 ![demoday](../images/projects/le_5.png)
 
@@ -49,5 +51,9 @@ Taught product design and front-end development to a small group of high school 
 
 ## Coverage
 
-[Asia Tech Podcast][http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/]
+![asiaintech](../images/projects/le_6.jpeg)
+
+**[AsiaTechPodcast](http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/)**
+
+**[Le Wagon #1 Bootcamp on Switchup.org](https://www.switchup.org/bootcamps/le-wagon)**
 
