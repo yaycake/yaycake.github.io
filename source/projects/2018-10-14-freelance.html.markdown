@@ -12,26 +12,33 @@ tags:
 previewimage: ../../../../images/projects/frebanner.png
 ---
 
-![creative](../images/projects/free_1.png)
+## I Freak What I Got
 
-## Creative Design
+As a former marketing manager and event producer, my shift towards User Experience was a no-brainer.
 
-I am open to collaborate remotely on projects of varying scale-- I have managed and worked with large teams from different departments (from tech to operations) as well as individuals as clients.
-
-![brand](../images/projects/free_2.png)
-
-
-![munchwich](../images/projects/free_3.png)
+I bring a useful set of skills to shaping a product-- from macro-level creative strategies to how solid brand strategies can reproduce authentic brand & campaign experiences.
 
 ## Brand Strategy
 
+My digital marketing and management background provide a holistic perspective on how to discover, shape, and implement a cohesive and consistent brand strategy.
 
-![wechat](../images/projects/free_4.png)
+I also consult re-branding processes: discovery and research to modernize, stylize, or profiling your target audience.
+![brand](../images/projects/free_2.png)
+
+## Creative Design
+
+I use Adobe Illustrator for illustrations, graphic design, and iconography. While I am familiar with Adobe XD and Figma, I mostly use Sketch for UX wireframes and product design mockups.
+
+![creative](../images/projects/free_1.png)
+
+![munchwich](../images/projects/free_3.png)
 
 ## Execution & Code
 
+I work in HTML/CSS, Javascript, Ruby on Rails, and Markdown. Past WeChat Mini Program projects were coded in MINA (native WeChat framework), and include wxcss and wxml.
 
 ![stack](../images/projects/free_5.png)
+![wechat](../images/projects/free_4.png)
 
 ## Clients Include
 

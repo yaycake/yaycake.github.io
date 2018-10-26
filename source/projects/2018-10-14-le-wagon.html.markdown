@@ -19,7 +19,7 @@ reel: https://youtu.be/65qa8VihQI0
 
 ## Le Wagon Chengdu
 
-opened in 2017 in Chengdu, Sichuan. Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
+Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
 
 ## UX & UI Design Sprints
 
@@ -27,22 +27,27 @@ I taught the first product design sprint for the very first batch of students in
 
 ![demoday](../images/projects/le_5.png)
 
-
 ## Projects & Demo Day
 
-While I myself went on to attend and graduate from the following batch so I could improve how I work and communicate with teams of developers, I continue facilitating the product sprint for Le Wagon Chengdu and often mentor student projects on the front end.
+While I myself went on to attend and graduate from the following batch (#114), I continue facilitating the product sprint for Le Wagon Chengdu and often mentor student projects on the front end.
 
 ## Startup Weekend
 
-I am also involved in Chengdu's local Startup Weekend conference and mentor through product design at their hackathon events, working with local creative entrepreneurs and software engineers to shapen and sharpen their product ideas.
+I work with local creative entrepreneurs and software engineers to brainstorm and shape their products.
 
 ![ladies_in_tech](../images/projects/le_2.png)
 
 ## Ladies in Tech
 
+An open and public Women's Day event produced by both Le Wagon and the French Embassy in Chengdu, we looked at the opportunities women have to participate in shaping the future and workshopped product ideas in small groups.
+
 ![teach](../images/projects/le_4.png)
 
 ## High School Tech Bootcamp
 
+Taught product design and front-end development to a small group of high school kids. During the week-long bootcamp, the kids learned how to design a product, mockup and demo prototype on Figma, and code a landing page.
+
 ## Coverage
-http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/
+
+[Asia Tech Podcast][http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/]
+

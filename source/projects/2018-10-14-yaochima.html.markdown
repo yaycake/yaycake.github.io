@@ -10,21 +10,24 @@ tags:
   - Wechat
   - Front End Development
 previewimage: ../../../../images/projects/yaobanner.png
-website: http://yaochima.shanghaiwogeng.com
 reel: https://www.youtube.com/embed/eYaEUeVMWH0
 
 ---
-![discover](../images/projects/yao_1.png)
-
 ## Discover Places To Eat
 
 Yaochima is a WeChat Mini Program that helps you discover, explore, and find local Chengdu eats with a few shakes of your phone.
 
-![dianping](../images/projects/yao_2.png)
+![discover](../images/projects/yao_1.png)
 
-## The Challenge
+## The Opportunity
 
 Local Chinese apps like Dianping or Meituan overwhelm users with endless and infinite possibilities of where to eat. In a city like Chengdu, where it's easy to drown in hot-pot or skewers, Yaochima helps free you from the paradox of choice.
+
+![dianping](../images/projects/yao_2.png)
+
+## The Design
+
+To eliminate the panic that accompanies the paradox of choice, the UX encouraged a simple "yes or no" attitude from the user by allowing them to consider a restaurant option in itself (vs. comparing one hot pot restaurant to ten other very similar hot pot restaurants). The UI + 'shake' effect boosted the 'friendliness' of the app-- an encouragement to play and try new neighborhood spots. This is a direct contrast to the overwhelming amount of options and information a customer sees on the typical Chinese restaurant review platforms.
 
 ![yao_icons](../images/projects/yao_3.png)
 
@@ -34,11 +37,22 @@ With each shake of your phone, Yaochima shows you a lottery of nearby restaurant
 
 ![share](../images/projects/yao_5.png)
 
+## Challenges
+
+We scraped Dianping, a Chinese app which provides restaurant reviews and food delivery for restaurants around Chengdu.
+
+Figuring out categories and cuisines (and how to scrape, store and use them) was a challenge due to the overlap.
+
+The inconsistent quality of images on Dianping was a design challenge I took the edge off with the creative brand experience of the Mini Program.
+
+<iframe width="100%" height="300px" style="margin: 0 auto" src="https://www.youtube.com/embed/eYaEUeVMWH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Local Spice
 
-To localize our mini program idea, we recorded, edited, adn added Sichuan exclamations to accompany each shake.
+To localize our mini program idea, we recorded, edited, and added Sichuan exclamations to accompany each shake.
 
 ## Le Wagon Batch #114 Final Project
 
 ![whiteboard](../images/projects/yao_4.png)
 
+Yaochima was my final project. Team members include Fabien Martin (founder of WePlusMinus) and Alina Kabirova (fullstack developer).
