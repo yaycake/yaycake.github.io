@@ -1,22 +1,42 @@
 
-
     <%= partial '/partials/head' %>
 
-    <%= partial '/partials/header' %>
+    <%= partial '/partials/projectheader' %>
 
-      <div class="page-wrapper">
+    <%= partial '/partials/projectbanner' %>
 
-        This is Project.erb
+    <div class="project-wrapper" style="position: relative;">
+      <!-- Before Project Yield on project.erb
+      <br> -->
 
-
-        <%= current_page.data.title %>
-        <%= current_page.data.date %>
-
+      <%= yield %>
+      <br>
+      <div class="project-end">
+        <h2><%= current_page.data.title %></h2>
+        <p> <em>last updated on <%= current_page.data.date %></em>
+        </p>
       </div>
 
+      <br>
+      <h2>Other Projects</h2>
+      <%= partial '/partials/projectcards' %>
+      <br>
+      <br>
+      <div style="display: flex; justify-content: space-between;">
+        <a href="../../../../index.html">
+          <h2 style="text-align: left;">Home</h2>
+        </a>
 
-    <%= yield %>
+        <h2 style="text-align: right;">Contact Me</h2>
+      </div>
 
-    <%= partial '/partials/footer' %>
+      <br>
+    </div>
+
+
+
+
+
+    <!-- <%= partial '/partials/footer' %> -->
 
     <%= partial '/partials/foot' %>

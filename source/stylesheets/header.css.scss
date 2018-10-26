@@ -1,9 +1,10 @@
 header {
-  mix-blend-mode: screen;
+  // mix-blend-mode: screen;
   display: flex;
   text-align: center;
   align-items: center;
   position: relative;
+  z-index: 12;
 }
 
 header>div {
@@ -13,22 +14,28 @@ header>div {
   list-style: none;
   padding-inline-start: 0px!important;
   display: flex;
-  position:fixed;
-  left: 50vw;
+  flex-direction: row-reverse;
+  position: absolute;
+  left: 0;
+  right: 0;
   top: 1rem;
-  width: auto;
+  width: 30vw;
+  min-width: 375px;
 }
 
 .nav-menu-link {
-  width: 44px;
-  height:44px;
+ width: 2rem;
+  height:2rem;
   border-radius: 50%;
-  background-color: gray;
   display:inline;
   color: gray;
   font-weight: bolder;
   margin: 0 1rem;
   margin-top: 1rem;
+}
+
+.nav-menu-link>img{
+
 }
 
 .logo{

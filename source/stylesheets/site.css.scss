@@ -1,10 +1,13 @@
 @import "header.css";
 @import "footer.css";
 @import "project.css";
+@import "projectcards.css";
+@import "projectbanner.css";
 
 body {
   // background-color: lavender;
-  color: #333;
+  // color: #333;
+  color: #000;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -12,28 +15,46 @@ body {
   // padding: 18vh 1rem;
   text-align: center;
   margin: 0!important;
+  font-family: 'Avenir', sans-serif;
 
 }
 
 .page-wrapper{
-    height: auto;
-    // border: 2px solid gold;
-
+  height: 100%;
+  width: 30vw;
+  min-width: 375px;
+  min-width: 25rem;
+  // border: 2px solid pink;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
-a {
-  color: rgba(#000, 0.7);
 
+a {
+  // color: rgba(#000, 0.7);
+  text-decoration: none;
+  color: black;
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    // color: rgba(#000, 0.6);
+  }
+  &:visited {
+    color: black;
+    text-decoration: none;
   }
 }
 
+p {
+  font-family: avenir;
+  color: #00033;
+}
+
 .banner{
-  width: 30rem;
+  width: 30vw;
+  min-width: 375px;
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
   // padding-top: 10rem;
 }
 
@@ -60,6 +81,5 @@ a {
   margin: 0;
 }
 
-// - - - - - - - - fucking with the background ani
 
 

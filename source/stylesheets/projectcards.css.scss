@@ -1,10 +1,11 @@
 
 .project-cards {
-  width: 30rem;
+  width: 100%;
+  min-width: 375px;
   height: 325px;
   /*border: 3px solid gold;*/
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  // grid-template-columns: repeat(7, 1fr);
   margin: 0 auto;
   margin-top: 4rem;
   position: relative;
@@ -15,67 +16,69 @@
   align-items: center;
   background-color: lavender;
   height: 100%;
-  border: 2px solid white;
-  transition: all .5s ease-in-out;
+  border: 1.5px solid white;
+  transition: all 1s ease-in-out;
+  filter: grayscale(1);
+  background-position: left;
+  background-size: cover;
 }
+
+
 
 
 .project-title {
-  // font-size: 5rem;
-  position: absolute;
-  top: -4rem;
-  right: 16.75rem;
+  font-size: 4rem;
+  top: 26rem;
   display: none;
-  opacity: 1;
-  text-align: right;
-  /*transition: all .2s ease-in-out;*/
+  text-align: left;
+  color: white;
+  transition: all .2s ease-in-out;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 4rem;
+}
+
+.project-cards>a {
+  text-decoration: none;
 }
 
 .project-card:hover {
-  background-color: orange;
+  // filter:none;
   /*transform: scale(1.1);*/
-  /*display: all;*/
+  display: all;
+  filter: none;
+
 }
+
+.project-card:hover >
 
 a {
   color: black;
 
 }
 
-.freelance.project-card:hover .freelance-title{
-display: block;
+.freelance.project-card:hover .freelance-title,
+.ubisoft.project-card:hover .ubisoft-title,
+.yaochima.project-card:hover .yaochima-title,
+.horizons.project-card:hover .horizons-title,
+.wagon.project-card:hover .wagon-title,
+.machine.project-card:hover .machine-title
+
+  {
+    display: block;
+  }
+
+.journey.project-card:hover .chengdu-title
+
+  {
+    display: block;
+    font-size: 3rem;
+  }
 
 
 
-}
-
-
-.ubisoft.project-card:hover .ubisoft-title{
-  display: block;
-
-
-}
-
-.yaochima.project-card:hover .yaochima-title{
-  display: block;
-
-
-}
-
-.horizons.project-card:hover .horizons-title{
-  display: block;
-
-
-}
-
-.wagon.project-card:hover .wagon-title{
-  display: block;
-
-
-}
-
-.machine.project-card:hover .machine-title{
-  display: block;
-
-
+@media screen and (max-width: 540px){
+  .project-card {
+    width:100%
+  }
 }

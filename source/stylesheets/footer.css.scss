@@ -1,19 +1,68 @@
 footer {
-  position: fixed;
-  bottom: 1rem;
-  width: 100vw;
-  font-weight: bolder
+  font-weight: bolder;
+  width: 30vw;
+  min-width: 375px;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: right;
+  // position: relative;
 }
 
 footer>div{
+  position: relative;
   margin: 0 auto;
-  width: 30rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+}
+
+footer>div>h2, .hidden-contact{
+  width: auto;
   height: auto;
+  text-align: right;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 footer>div>h2{
   margin: 0 auto;
 }
+
+// - - - - - hidden contact me
+
+  .footer-label{
+    cursor:pointer;
+  }
+
+  .icons-footer {
+    width: .8rem;
+    height: .8rem;
+  }
+
+  .hidden-contact{
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .5s, visibility 0s 0.5s;
+    transition: opacity .5s, visibility 0s .5s;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  #contact-show {
+    position: absolute;
+    opacity: 0;
+  }
+
+  #contact-show:checked~.hidden-contact{
+    z-index: 101;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    // position: absolute;
+  }
+
+  #contact-show:checked ~ label {
+    display: none;
+  }
+

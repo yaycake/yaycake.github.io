@@ -48,6 +48,7 @@ page '/*.txt', layout: false
 
 activate :blog do |blog|
  blog.prefix = "projects"
+ blog.permalink = "/{title}.html"
 end
 
 

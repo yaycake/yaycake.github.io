@@ -1,0 +1,34 @@
+
+    <!-- - - - - - Project Banner -->
+    <div class="project-banner">
+      <div class="project-banner-grid">
+        <h1><%= current_page.data.title %></h1>
+        <h2 class="project-banner-subtitle">
+          <%= current_page.data.subtitle %>
+        </h2>
+        <div class="project-links">
+          <% if current_page.data.website != nil %>
+            <a class="project-link" href="<%= current_page.data.website %>"><img class="project-icon" src="../../../../images/icons/icon-web.png"></a>
+            <% else %>
+          <% end %>
+          <% if current_page.data.reel != nil %>
+            <a class="project-link" href="<%= current_page.data.website %>"><img class="project-icon" src="../../../../images/icons/icon-video.png"></a>
+            <% else %>
+          <% end %>
+
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="introimage" style=" background-size:cover; background-position: left bottom;
+      background-image: url(<%= current_page.data.previewimage %>");">
+        <div style="color: white;" class="project-intro-text">
+            <h3>
+
+            <%= current_page.data.product%>
+
+            </h3>
+      </div>
+    </div>
+    <!-- -- end of project banner above -->

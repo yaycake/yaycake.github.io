@@ -1,14 +1,59 @@
 ---
-
 title: Le Wagon
 date: 2018-10-14 06:57 UTC
+subtitle: Creative design as a practice and discipline
+product: Product Design sprints, Student Mentorshop, Front End Development, WeChat Mini Programs
 tags:
-
+  - UX
+  - UI
+  - Design
+  - Sketch
+  - Illustrator
+  - HTML/CSS
+previewimage: ../../../../images/projects/lebanner.png
+website: http://www.lewagon.com/chengdu
+reel: https://youtu.be/65qa8VihQI0
 ---
 
+## Le Wagon Chengdu
 
+Le Wagon is a globally ranked #1 coding bootcamp; I became involved with Le Wagon Chengdu as a creative entrepreneur and continue to help grow the community today.
 
-<div class="page-wrapper">
-  This is #Le Wagon
+![lewagon_cdu](../images/projects/le_1.png)
 
-</div>
+## UX & UI Design Sprints
+
+I taught the first product design sprint for the very first batch of students in Chengdu in 2017, covering product development, creating user stories, zoning & mockups in Sketch, and prototyping with Invision and/or Marvel.
+
+>##Le Wagon is ranked the #1 coding school on Switchup.org
+
+![demoday](../images/projects/le_5.png)
+
+## Projects & Demo Day
+
+While I myself went on to attend and graduate from the following batch (#114), I continue facilitating the product sprint for Le Wagon Chengdu and often mentor student projects on the front end.
+
+## Startup Weekend
+
+I work with local creative entrepreneurs and software engineers to brainstorm and shape their products.
+
+![ladies_in_tech](../images/projects/le_2.png)
+
+## Ladies in Tech
+
+An open and public Women's Day event produced by both Le Wagon and the French Embassy in Chengdu, we looked at the opportunities women have to participate in shaping the future and workshopped product ideas in small groups.
+
+![teach](../images/projects/le_4.png)
+
+## High School Tech Bootcamp
+
+Taught product design and front-end development to a small group of high school kids. During the week-long bootcamp, the kids learned how to design a product, mockup and demo prototype on Figma, and code a landing page.
+
+## Coverage
+
+![asiaintech](../images/projects/le_6.jpeg)
+
+**[AsiaTechPodcast](http://www.atpstories.com/in-the-making-with-thibault-and-grace-le-wagon-nsh4/)**
+
+**[Le Wagon #1 Bootcamp on Switchup.org](https://www.switchup.org/bootcamps/le-wagon)**
+

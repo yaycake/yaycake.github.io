@@ -1,0 +1,28 @@
+.project-header-links {
+  width: 30vw;
+  min-width: 375px;
+  -webkit-box-align: center;
+  position: relative;
+  mix-blend-mode: screen;
+  height:5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+}
+
+.project-header-links > a {
+  text-decoration: none;
+
+}
+.project-header-link {
+
+
+}
+
+.project-header-icon {
+  width: 44px;
+  height: 44px;
+
+}
