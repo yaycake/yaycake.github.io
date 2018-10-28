@@ -1,38 +1,44 @@
 header {
-  // mix-blend-mode: screen;
   display: flex;
   text-align: center;
-  align-items: center;
+  align-items: baseline;
   position: relative;
   z-index: 12;
+  width: 95vw;
+  min-width: 375px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  justify-content:space-between;
 }
 
-header>div {
-  margin: 0 auto;
+.site-name {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  text-align: left;
+  padding-left: 1rem;
 }
+
+
 .nav-menu-links{
   list-style: none;
   padding-inline-start: 0px!important;
   display: flex;
   flex-direction: row-reverse;
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: fixed;
   top: 1rem;
-  width: 30vw;
-  min-width: 375px;
+  right: 1rem;
 }
 
 .nav-menu-link {
- width: 2rem;
-  height:2rem;
+ width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   display:inline;
   color: gray;
   font-weight: bolder;
-  margin: 0 1rem;
-  margin-top: 1rem;
-}
+  margin: 2rem;
+ }
 
 .nav-menu-link>img{
 

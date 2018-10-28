@@ -1,11 +1,11 @@
 footer {
   font-weight: bolder;
-  width: 30vw;
+  width: 95vw;
   min-width: 375px;
   bottom: 0;
   margin: 0 auto;
   text-align: right;
-  // position: relative;
+  padding-bottom: 2rem;
 }
 
 footer>div{
@@ -32,8 +32,8 @@ footer>div>h2{
   }
 
   .icons-footer {
-    width: .8rem;
-    height: .8rem;
+    width: 2rem;
+    height: 2rem;
   }
 
   .hidden-contact{
@@ -49,7 +49,7 @@ footer>div>h2{
   }
 
   #contact-show {
-    position: absolute;
+    // position: absolute;
     opacity: 0;
   }
 
