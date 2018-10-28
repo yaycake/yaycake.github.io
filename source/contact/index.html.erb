@@ -1,38 +1,42 @@
+---
+title: Contact Me
+---
+
 <div class="page-wrapper">
 
   <div class="contact-banner">
     <h2>Let's Chat.</h2>
-    <h4>Shoot me a message here or on WeChat at @yay_cake.</h4>
+    <h4>Shoot me a message! You can also find me on WeChat @yay_cake.</h4>
   </div>
 
   <div class="contact-form">
-    <form action="//formspree.io/email@domain.com" method="POST">
+    <form action="//formspree.io/im@thegraceyang.com" method="POST">
       <!-- <fieldset> --><div>
-        <label for="name">
+        <!-- <label for="name">
           <h3>Hello, what's your name?</h3>
-        </label>
-        <input type="text" name="name" placeholder="Nice to meet you." id="name" required>
+        </label> -->
+        <input type="text" name="name" placeholder="What's Your Name?" id="name" required>
       <!-- </fieldset> --></div>
       <br>
       <!-- <fieldset> --><div>
-        <label for="_replyto">
+       <!--  <label for="_replyto">
           <h3>& your email?</h3>
-        </label>
-        <input type="email" name="_replyto" placeholder="Email@here.com" id="_replyto" required>
+        </label> -->
+        <input type="email" name="_replyto" placeholder="Your@EmailHere.com" id="_replyto" required>
       <!-- </fieldset> --></div>
       <br>
       <!-- <fieldset> --><div>
-        <label for="message">
+       <!--  <label for="message">
           <h3>Message</h3>
-        </label>
-        <textarea name="message" rows="1" placeholder="What can I do for you?" id="message" required></textarea>
+        </label> -->
+        <textarea name="message" rows="1" placeholder="Your Message" id="message" required></textarea>
       <!-- </fieldset> --></div>
 
       <input class="hidden" type="text" name="_gotcha" style="display:none">
 
       <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
 
-        <input class="button submit" type="submit" value="Send">
+        <input id="submitbutton" class="button submit" type="submit" value="Send">
 
 
     </form>
