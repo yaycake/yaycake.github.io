@@ -25,6 +25,7 @@ header {
   padding-inline-start: 0px!important;
   display: flex;
   flex-direction: row-reverse;
+  // align-items: baseline;
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -38,6 +39,20 @@ header {
   color: gray;
   font-weight: bolder;
   margin: 2rem;
+ }
+
+ #wechatqr {
+  background-size: 100px 100px;
+  background-position: center;
+  // border: .5rem inset black;
+  transition: all 1.5s ease-in-out;
+ }
+
+#wechatqr:hover {
+  border-radius: 0;
+  transform: scale(2,2);
+  border: none;
+  background-size: contain;
  }
 
 
