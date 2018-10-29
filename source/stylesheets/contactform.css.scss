@@ -31,14 +31,24 @@ input {
   text-align: center;
 }
 
-.button .submit {
-  width: 50%;
-  min-width: 375px;
-  letter-spacing:.5em;
-  font-weight: bold;
-  height: 2rem;
+// .button .submit {
+//   width: 50%;
+//   min-width: 375px;
+//   letter-spacing:.5em;
+//   font-weight: bold;
+//   height: 2rem;
+//   background-color: black;
+//   color: white;
+// }
+
+#submitbutton {
   background-color: black;
+  border-radius: .25rem;
   color: white;
+  font-weight: bold;
+  width: 52%;
+  margin-top: 1rem;
+  padding: 0!important;
 }
 
 input:focus, textarea:focus {
@@ -61,14 +71,7 @@ textarea {
   text-align: center;
 }
 
-#submitbutton {
-  background-color: black;
-  border-radius: .25rem;
-  color: white;
-  font-weight: bold;
-  width: 50%;
-  margin-top: 1rem;
-}
+
 
 #message {
   border-bottom: 2px solid pink;
