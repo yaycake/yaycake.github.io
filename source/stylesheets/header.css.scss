@@ -19,13 +19,23 @@ header {
   padding-left: 1rem;
 }
 
+ .site-name:hover > #grace > h1 {
+  background: radial-gradient(#4AC29A, #BDFFF3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .nav-menu-links{
   list-style: none;
   padding-inline-start: 0px!important;
   display: flex;
   flex-direction: row-reverse;
-  // align-items: baseline;
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -38,13 +48,12 @@ header {
   display:inline;
   color: gray;
   font-weight: bolder;
-  margin: 2rem;
+  margin: 1.25rem;
  }
 
  #wechatqr {
   background-size: 100px 100px;
   background-position: center;
-  // border: .5rem inset black;
   transition: all 1.5s ease-in-out;
  }
 
@@ -57,8 +66,41 @@ header {
 
 
 a:hover > .nav-menu-link {
-  background-color: pink;
+
+ // - - - - - rainbow hover experiment
+    // background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 2.9rem, 2.9rem;
+    background: radial-gradient(#4AC29A, #BDFFF3);;
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+  }
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+
 
 .logo{
   text-align: left;
