@@ -40,8 +40,9 @@ header {
   margin: 2rem;
  }
 
-.nav-menu-link>img{
 
+a:hover > .nav-menu-link {
+  background-color: pink;
 }
 
 .logo{
