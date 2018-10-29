@@ -1,0 +1,122 @@
+.contact-wrapper {
+  margin-top: 5rem;
+}
+
+.contact-form {
+  width: 100%;
+
+}
+
+.contact-form > form > div {
+  // border-bottom: 2px solid black;
+}
+.contact-banner{
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  font-size: 1rem;
+  width: 50%;
+  min-width: 375px;
+  height: 3rem;
+  border: white;
+  transition: all .5s ease .1s;
+  background-color: rgba(0,0,0,.02);
+  padding: 1rem;
+  text-align: center;
+}
+
+// .button .submit {
+//   width: 50%;
+//   min-width: 375px;
+//   letter-spacing:.5em;
+//   font-weight: bold;
+//   height: 2rem;
+//   background-color: black;
+//   color: white;
+// }
+
+#submitbutton {
+  background-color: black;
+  border-radius: .25rem;
+  color: white;
+  font-weight: bold;
+  width: 52%;
+  margin-top: 1rem;
+  padding: 0!important;
+  transition: all 5s ease-in-out .1s;
+}
+
+.submit .button{
+  transition: all 5s ease-in-out .1s;
+
+}
+ .submit:hover{
+  letter-spacing: 1;
+  background: radial-gradient(#4AC29A, #BDFFF3);
+  // background: radial-gradient(#ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+  }
+
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+input:focus, textarea:focus {
+  outline: none;
+  background-color: rgba(0,0,0,.04);
+  text-align: left;
+}
+
+textarea {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 375px;
+  height: 4rem;
+  font-size: 1rem;
+  border: none!important;
+  background-color: rgba(0,0,0,.02);
+  border: white;
+  transition: all .5s ease .1s;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+
+#message {
+  border-bottom: 2px solid pink;
+}
+
+label>h3{
+
+  margin-bottom: .5rem;
+}

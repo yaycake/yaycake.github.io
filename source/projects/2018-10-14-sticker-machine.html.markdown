@@ -74,4 +74,8 @@ Generally, people find stickers through WeChat sticker share groups. While that 
 Scan with your WeChat, or search "Sticker Machine" in WeChat for the mini program.
 
 ![stickermachine](../images/projects/sticker_6.png)
+
+## Coverage
+
+<a href="https://mp.weixin.qq.com/s/frnl2ZKI6URYJfF00cuq1g" target="_blank"> How to Use WeChat Like a Local: a Guidebook by Chengdu Expat</a>
 <!-- ![poweredbygiphy](../images/projects/) -->

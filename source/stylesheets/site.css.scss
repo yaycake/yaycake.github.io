@@ -21,29 +21,37 @@ body {
 
 .page-wrapper{
   height: 100%;
-  width: 30vw;
+  width: 95vw;
   min-width: 375px;
   min-width: 25rem;
-  // border: 2px solid pink;
   margin: 0 auto;
   padding: 1rem;
   margin-top: 2rem;
 }
 
+.index-wrapper{
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+
+}
 
 a {
-  // color: rgba(#000, 0.7);
-  text-decoration: none;
   color: black;
+  text-decoration: underline;
   &:focus,
   &:hover {
-    // color: rgba(#000, 0.6);
+    transform: scale(1);
   }
   &:visited {
     color: black;
-    text-decoration: none;
+
   }
 }
+
+
+
 
 p {
   font-family: avenir;
@@ -51,35 +59,40 @@ p {
 }
 
 .banner{
-  width: 30vw;
+  width: 95vw;
   min-width: 375px;
   margin: 0 auto;
   margin-top: 5rem;
   // padding-top: 10rem;
 }
 
-.banner-grid {
-  display: grid;
-  grid-template-columns: repeat( 4, minmax(100px, 1fr) );
-  grid-template-rows: repeat(2, auto-fill)
-
-}
-.banner-grid>h1{
-  grid-column: 1 / span 2;
-  grid-row: 1 / 2;
-  font-size: 5rem;
-  text-align: left;
-  margin: 0!important;
-  background-clip: text;
-
+.banner-subtitle {
+  padding-left: 8.5rem;
+    text-align: left;
 }
 
-.banner-subtitle{
-  grid-column: 3 / span 2;
-  grid-row: 2 ;
-  text-align: left;
-  margin: 0;
-}
+// .banner-grid {
+//   display: grid;
+//   grid-template-columns: repeat( 4, minmax(100px, 1fr) );
+//   grid-template-rows: repeat(2, auto-fill)
+
+// }
+// .banner-grid>h1{
+//   grid-column: 1 / span 2;
+//   grid-row: 1 / 2;
+//   font-size: 5rem;
+//   text-align: left;
+//   margin: 0!important;
+//   background-clip: text;
+
+// }
+
+// .banner-subtitle{
+//   grid-column: 3 / span 2;
+//   grid-row: 2 ;
+//   text-align: left;
+//   margin: 0;
+// }
 
 
 
