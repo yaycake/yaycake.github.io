@@ -52,10 +52,7 @@ projectcards{
 
 }
 
-.project-card:hover > a {
-  color: black;
 
-}
 
 .freelance.project-card:hover .freelance-title,
 .ubisoft.project-card:hover .ubisoft-title,
@@ -84,7 +81,7 @@ projectcards{
     grid-template-columns: auto!important;
       }
   .projectcards {
-    margin-top: 0;
+    // margin-top: 0;
   }
   .project-card {
     width:100%;

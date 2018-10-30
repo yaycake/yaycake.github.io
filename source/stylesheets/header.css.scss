@@ -2,13 +2,13 @@ header {
   display: flex;
   text-align: center;
   align-items: baseline;
-  position: relative;
+  // position: relative;
   z-index: 12;
   width: 95vw;
   min-width: 375px;
   margin: 0 auto;
-  padding-top: 2rem;
-  justify-content:space-between;
+  // padding-top: 2rem;
+  // justify-content:space-between;
 }
 
 #grace > h1{
@@ -84,33 +84,31 @@ a:hover > .nav-menu-link {
       animation: rainbow 18s ease infinite;
   }
 
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
+// @-webkit-keyframes rainbow {
+//     0%{background-position:0% 82%}
+//     50%{background-position:100% 19%}
+//     100%{background-position:0% 82%}
+// }
+// @-moz-keyframes rainbow {
+//     0%{background-position:0% 82%}
+//     50%{background-position:100% 19%}
+//     100%{background-position:0% 82%}
+// }
+// @-o-keyframes rainbow {
+//     0%{background-position:0% 82%}
+//     50%{background-position:100% 19%}
+//     100%{background-position:0% 82%}
+// }
+// @keyframes rainbow {
+//     0%{background-position:0% 82%}
+//     50%{background-position:100% 19%}
+//     100%{background-position:0% 82%}
+// }
 
 
 
 
-.logo{
-  text-align: left;
-}
+
 
 
 @media screen and (max-width: 540px){
