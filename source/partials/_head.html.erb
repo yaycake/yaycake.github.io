@@ -1,15 +1,26 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="description" content="Grace | Freelance UX and UI Designer Portfolio Website">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "footer", "header", "project", "projectcards", "projectbanner", "site", "projectheader", "contactform" %>
+    <title><%= current_page.data.title || "Grace | UX and UI" %></title>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="../stylesheets/site.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="../stylesheets/projectcards.css">
+
+    <link rel="stylesheet" href="../stylesheets/project.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectbanner.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectheader.css" async>
+    <link rel="stylesheet" href="../stylesheets/contactform.css" async>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" async>
     <%= javascript_include_tag "site" %>
   </head>
   <body>

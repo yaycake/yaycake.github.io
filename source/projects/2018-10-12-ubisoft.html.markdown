@@ -60,10 +60,10 @@ While the mini program is in 'post-event' mode, you can still check out the news
 
 <ul>
 
- <li><a href="https://mp.weixin.qq.com/s/OhuxV5_XkIEuES5QgS2Vyg" target="_blank">Ubisoft Is Taking ChinaJoy By Storm-- WeChat Global</a></li>
- <li><a href="http://blog.ubi.com/en-GB/ubisoft-brings-exciting-line-chinajoy/" target="_blank">Ubisoft Brings Exciting Line Up To Chinajoy</a>
+ <li><a href="https://mp.weixin.qq.com/s/OhuxV5_XkIEuES5QgS2Vyg" target="_blank" rel="noopener">Ubisoft Is Taking ChinaJoy By Storm-- WeChat Global</a></li>
+ <li><a href="http://blog.ubi.com/en-GB/ubisoft-brings-exciting-line-chinajoy/" target="_blank" rel="noopener">Ubisoft Brings Exciting Line Up To Chinajoy</a>
 </li>
- <li><a href="https://www.douyu.com/cms/new_list/201808/02/8373.shtml" target="_blank">Betta X Ubisoft China Joy Fish Le Zhi Leads You To The New World Of Games</a></li>
+ <li><a href="https://www.douyu.com/cms/new_list/201808/02/8373.shtml" target="_blank" rel="noopener">Betta X Ubisoft China Joy Fish Le Zhi Leads You To The New World Of Games</a></li>
 </ul>
 
 

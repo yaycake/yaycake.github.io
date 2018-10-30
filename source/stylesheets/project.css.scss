@@ -24,6 +24,7 @@
   margin-bottom: 1rem;
 }
 
+
 blockquote {
   width: 50%;
   // border: 1px dotted pink;
@@ -45,6 +46,21 @@ blockquote>h3{
   border-top: 2px solid rgba(0,0,0,1);
   border-bottom: 2px solid black;
   padding-bottom: 1rem;
-  // padding: 2rem;
+}
+
+
+@media screen and (max-width: 540px){
+
+  .project-wrapper{
+      padding: .5rem;
+  }
+  blockquote {
+    padding-left: 40%;
+  }
+  .project-banner-subtitle{
+    width:60%;
+  }
+
+
 }
 
