@@ -1,7 +1,9 @@
-
+projectcards{
+  margin: 0 auto;
+}
 .project-cards {
   width: 100%;
-  min-width: 375px;
+  // min-width: 375px;
   height: 70vh;
   /*border: 3px solid gold;*/
   display: grid;
@@ -50,9 +52,7 @@
 
 }
 
-.project-card:hover >
-
-a {
+.project-card:hover > a {
   color: black;
 
 }
@@ -78,7 +78,18 @@ a {
 
 
 @media screen and (max-width: 540px){
+  .project-cards {
+    flex-direction: column;
+    grid-template-rows: auto!important;
+    grid-template-columns: auto!important;
+      }
+  .projectcards {
+    margin-top: 0;
+  }
   .project-card {
-    width:100%
+    width:100%;
+  }
+  .project-title {
+    display:all;
   }
 }
