@@ -3,18 +3,12 @@
   width: 50vw;
   min-width: 375px;
   margin: 0 auto;
-  // border: 2px dashed pink;
   text-align: left;
 }
 
 .project-wrapper>p, .project-wrapper>h3 {
   line-height: 1.5rem;
   padding: 0 1rem;
-}
-
-.project-wrapper>h3{
-
-
 }
 
 .project-wrapper > p > img {
@@ -24,22 +18,15 @@
   margin-bottom: 1rem;
 }
 
-
 blockquote {
   width: 50%;
-  // border: 1px dotted pink;
   margin: 0;
   padding-left: 50%;
 }
 
-
 blockquote>p {
   text-align: left;
   float: right;
-}
-
-blockquote>h3{
-  // margin: 1.25rem;
 }
 
 .project-end {
@@ -60,7 +47,5 @@ blockquote>h3{
   .project-banner-subtitle{
     width:60%;
   }
-
-
 }
 

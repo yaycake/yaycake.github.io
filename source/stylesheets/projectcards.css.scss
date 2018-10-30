@@ -3,15 +3,11 @@ projectcards{
 }
 .project-cards {
   width: 100%;
-  // min-width: 375px;
   height: 70vh;
-  /*border: 3px solid gold;*/
   display: grid;
-  // grid-template-columns: repeat(7, 1fr);
   margin: 0 auto;
   margin-top: 4rem;
   position: relative;
-
 }
 
 .project-card {
@@ -24,9 +20,6 @@ projectcards{
   background-position: left;
   background-size: cover;
 }
-
-
-
 
 .project-title {
   font-size: 4rem;
@@ -80,9 +73,6 @@ projectcards{
     grid-template-rows: auto!important;
     grid-template-columns: auto!important;
       }
-  .projectcards {
-    // margin-top: 0;
-  }
   .project-card {
     width:100%;
   }
