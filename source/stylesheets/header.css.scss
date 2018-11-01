@@ -8,14 +8,16 @@ header {
   margin: 0 auto;
 }
 
-#grace {
-  transition: all  1s ease-out;
-}
+.nav-menu-link {
+  transition: background-image  1s ease-out;
 
-#grace > h1{
+  }
+
+#grace > h1 {
   margin: 0!important;
   font-size: 4rem;
-  }
+  z-index: 0;
+}
 
 .site-name {
   position: fixed;
@@ -25,19 +27,8 @@ header {
   transition: background 5s ease-out;
 }
 
- .site-name:hover {
-  background-image: url('../../../../images/themes/salmon.jpg');
-  background-size: cover;
-  background-position: center;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-.site-name:hover > #grace > h1 {
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: rgba(255,255,255,0);
-
+.site-name:hover {
+  text-shadow: 4px 4px 6px rgba(107,249,185,.15);
 }
 
 .nav-menu-links{
@@ -57,10 +48,12 @@ header {
   color: gray;
   font-weight: bolder;
   margin: 1.25rem;
-  transition: all 1s ease-out;
-  fill:url('../../../../images/themes/salmon.jpg'); ;
+  transition: all .5s ease-out;
+  fill:url('../../../../images/themes/salmon.jpg');
 
  }
+
+
 
  #wechatqr {
   background-size: 100px 100px;
@@ -77,16 +70,7 @@ header {
 
 
 a:hover > .nav-menu-link {
-  background-image: url('../../../../images/themes/salmon.jpg');
-  background-size: cover;
-  background-position: center;
-
-  // background: radial-gradient(rgba(66,48,232,100), rgba(160, 18, 235, 100));
-  // background-size: 1800% 1800%;
-  // -webkit-animation: rainbow 18s ease infinite;
-  // -z-animation: rainbow 18s ease infinite;
-  // -o-animation: rainbow 18s ease infinite;
-  //   animation: rainbow 18s ease infinite;
+  box-shadow: 2px 2px 3px 4px rgba(107,249,185,.15);
 }
 
 
