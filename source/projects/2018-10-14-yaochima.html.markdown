@@ -37,7 +37,7 @@ The UI + 'shake' effect boosted the 'friendliness' of the app-- an encouragement
 
 With each shake of your phone, Yaochima shows you a lottery of nearby restaurants within walking distance. Each result displays cuisine type and price range: if you don't like and lock either parameter and shake again, the cuisine and price range choices are filtered out of future results to truly help you narrow down and  make a quick and efficient decision.
 
-![share](../images/projects/yao_5.png)
+<iframe width="100%" height="300px" style="margin: 0 auto" src="https://www.youtube.com/embed/eYaEUeVMWH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Challenges
 
@@ -47,7 +47,7 @@ Figuring out categories and cuisines (and how to scrape, store and use them) was
 
 The inconsistent quality of images on Dianping was a design challenge I took the edge off with the creative brand experience of the Mini Program.
 
-<iframe width="100%" height="300px" style="margin: 0 auto" src="https://www.youtube.com/embed/eYaEUeVMWH0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+![share](../images/projects/yao_5.png)
 
 ## Local Spice
 

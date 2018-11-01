@@ -15,11 +15,12 @@ projectcards{
   background-color: lavender;
   height: 100%;
   border: 1.5px solid white;
-  transition: all 1s ease-in-out;
+
   filter: grayscale(1);
   background-position: left;
   background-size: cover;
 }
+
 
 .project-title {
   font-size: 4rem;
@@ -27,7 +28,7 @@ projectcards{
   display: none;
   text-align: left;
   color: white;
-  transition: all .2s ease-in-out;
+  transition: all 5s ease-out;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 4rem;

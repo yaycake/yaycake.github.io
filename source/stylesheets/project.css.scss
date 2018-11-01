@@ -35,6 +35,26 @@ blockquote>p {
   padding-bottom: 1rem;
 }
 
+#myBtn {
+  display: block; /* Hidden by default */
+  background-color: none;
+  cursor: pointer;
+  text-align: right;
+}
+
+.project-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project-footer > a {
+  text-decoration: none;
+}
+
+.project-footer > a:hover{
+  text-shadow: 4px 4px 6px rgba(107,249,185,.15);
+}
 
 @media screen and (max-width: 600px){
 
@@ -48,4 +68,5 @@ blockquote>p {
     width:60%;
   }
 }
+
 

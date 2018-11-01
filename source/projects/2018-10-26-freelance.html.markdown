@@ -2,7 +2,7 @@
 title: Freelance
 date: 2018-10-26 07:15 UTC
 subtitle: Branding, Marketing, Design, & Consulting
-product: I help brands strategize product launches, campaigns, and more through ideation, creation, technology, and execution.
+product: Creative Brand Strategy & Design
 tags:
   - UX
   - UI

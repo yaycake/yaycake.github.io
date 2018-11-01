@@ -48,6 +48,11 @@ input {
  color: #C5F4DF;
 }
 
+.nav-menu-link > a:focus {
+  background-color: #6BF9B9;
+  outline: none;
+}
+
 
 textarea {
   margin: 0 auto;

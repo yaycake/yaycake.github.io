@@ -21,9 +21,28 @@
       <%= partial '/partials/projectcards' %>
       <br>
       <br>
+    <!--   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
 
-      <br>
+    <div class="project-footer">
+      <h3 onclick="topFunction()" id="myBtn" title="go to Top">Back To Top</h3>
+      <a href="../../../../contact">
+        <h3>Contact Me</h3>
+      </a>
     </div>
+    <br>
+    <br>
+    <br>
+  </div>
+
+    <script async>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+
     <%= partial '/partials/footer' %>
 
     <%= partial '/partials/foot' %>
