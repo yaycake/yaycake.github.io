@@ -42,15 +42,12 @@ input {
   transition: all 5s ease-in-out .1s;
 }
 
- .submit:hover{
-    letter-spacing: 1;
-    background: radial-gradient(#4AC29A, #BDFFF3);
-    background-size: 1800% 1800%;
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;
-  }
+#submitbutton:hover{
+  background-image: url('../../../../images/themes/salmon.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255,255,255,1);
+}
 
 @-moz-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -62,8 +59,6 @@ input {
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-
-
 
 input:focus, textarea:focus {
   outline: none;
