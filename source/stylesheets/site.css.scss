@@ -6,7 +6,13 @@ body {
   color: #000;
   text-align: center;
   margin: 0!important;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+  // font-family: 'Poppins-Medium';
+}
+p {
+  font-style: 'Poppins-light';
 }
 
 .page-wrapper{
@@ -32,6 +38,8 @@ a {
   &:focus,
   &:hover {
     transform: scale(1);
+    outline: none;
+
   }
   &:visited {
     color: black;
