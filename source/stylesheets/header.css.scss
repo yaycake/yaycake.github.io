@@ -25,6 +25,8 @@ header {
   left: 1rem;
   padding-left: 1rem;
   transition: background 5s ease-out;
+  mix-blend-mode: overlay;
+  z-index: 90;
 }
 
 .site-name:hover {
@@ -38,6 +40,8 @@ header {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  mix-blend-mode: overlay;
+  z-index: 90;
 }
 
 .nav-menu-link {
