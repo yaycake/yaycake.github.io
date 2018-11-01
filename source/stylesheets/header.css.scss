@@ -8,6 +8,10 @@ header {
   margin: 0 auto;
 }
 
+#grace {
+  transition: all  1s ease-out;
+}
+
 #grace > h1{
   margin: 0!important;
   font-size: 4rem;
@@ -17,26 +21,53 @@ header {
   position: fixed;
   top: 1rem;
   left: 1rem;
-  // text-align: left;
   padding-left: 1rem;
   transition: background 10s ease-out;
 }
 
- .site-name:hover > #grace > h1 {
-  background: radial-gradient(#4AC29A, #BDFFF3);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ .site-name:hover {
+  background-image: url('../../../../images/themes/salmon.jpeg');
+  // background-size: 1800% 1800%;
+  // -webkit-animation: rainbow 18s ease infinite;
+  // -z-animation: rainbow 18s ease infinite;
+  // -o-animation: rainbow 18s ease infinite;
+  // animation: rainbow 18s ease infinite;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // background-clip: text;
+  // -webkit-background-clip: text;
+  // color: transparent;
+
+  // background-clip: text;
+  // -webkit-background-clip: text;
+  // color: rgba(0,0,0,.2);
 }
+
+
+// .site-name:hover {
+//   #grace {
+//     background-image: url('../../../../images/themes/salmon.jpeg');
+//     background-clip: text;
+// -webkit-background-clip: text;
+// color: transparent;
+//   }
+//   h1 {
+//     background-clip: text;
+//     background: radial-gradient(rgba(66,48,232,100), rgba(160, 18, 235, 100));
+//     background-size: 1800% 1800%;
+//     -webkit-animation: rainbow 18s ease infinite;
+//     // -z-animation: rainbow 18s ease infinite;
+//     -o-animation: rainbow 18s ease infinite;
+//     animation: rainbow 18s ease infinite;
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//   }
+// }
 
 
 .nav-menu-links{
   list-style: none;
-  padding-inline-start: 0px!important;
+  // padding-inline-start: 0px!important;
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
@@ -69,8 +100,12 @@ header {
 
 
 a:hover > .nav-menu-link {
-  background-size: 2.9rem, 2.9rem;
-  background: radial-gradient(#4AC29A, #BDFFF3);;
+  // background-size: 2.9rem, 2.9rem;
+  background: radial-gradient(rgba(66,48,232,100), rgba(160, 18, 235, 100));
+  // background: radial-gradient(50% 100%, #F76B1C 50%, #F8842C 61%, #FFFFFF 100%);
+  // background: radial-gradient(50% 89%, #F76B1C 47%, #F8842C 57%, #FFFFFF 90%);
+  // background: radial-gradient(#4230E8, #CC12EB);
+  // background: radial-gradient(#4AC29A, #BDFFF3);
   background-size: 1800% 1800%;
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
