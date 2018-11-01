@@ -2,39 +2,37 @@ header {
   display: flex;
   text-align: center;
   align-items: baseline;
-  position: relative;
   z-index: 12;
   width: 95vw;
   min-width: 375px;
   margin: 0 auto;
-  padding-top: 2rem;
-  justify-content:space-between;
+}
+
+.nav-menu-link {
+  transition: background-image  1s ease-out;
+
+  }
+
+#grace > h1 {
+  margin: 0!important;
+  font-size: 4rem;
+  z-index: 0;
 }
 
 .site-name {
   position: fixed;
   top: 1rem;
   left: 1rem;
-  text-align: left;
   padding-left: 1rem;
-  transition: all 10s ease-out;
+  transition: background 5s ease-out;
 }
 
- .site-name:hover > #grace > h1 {
-  background: radial-gradient(#4AC29A, #BDFFF3);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.site-name:hover {
+  text-shadow: 4px 4px 6px rgba(107,249,185,.15);
 }
-
 
 .nav-menu-links{
   list-style: none;
-  padding-inline-start: 0px!important;
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
@@ -43,14 +41,19 @@ header {
 }
 
 .nav-menu-link {
- width: 3rem;
+  width: 3rem;
   height: 3rem;
   border-radius: 50%;
   display:inline;
   color: gray;
   font-weight: bolder;
   margin: 1.25rem;
+  transition: all .5s ease-out;
+  fill:url('../../../../images/themes/salmon.jpg');
+
  }
+
+
 
  #wechatqr {
   background-size: 100px 100px;
@@ -67,55 +70,33 @@ header {
 
 
 a:hover > .nav-menu-link {
-
- // - - - - - rainbow hover experiment
-    // background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    background-size: 2.9rem, 2.9rem;
-    background: radial-gradient(#4AC29A, #BDFFF3);;
-    background-size: 1800% 1800%;
-    -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
-    -o-animation: rainbow 18s ease infinite;
-      animation: rainbow 18s ease infinite;
-  }
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+  background-color: rgba(107,249,185,.15);
+  box-shadow: 2px 2px 3px 4px rgba(107,249,185,.15);
 }
 
 
-
-
-.logo{
-  text-align: left;
-}
-
-
-@media screen and (max-width: 540px){
+@media screen and (max-width: 600px){
   header {
     position: relative;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 0;
   }
-  header>div{
-    padding: 0!important;
 
+  .site-name, .nav-menu-links {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .site-name {
+    left: 0;
+    padding-left: 0;
+  }
+  .project-cards{
+    position: relative;
+  }
+  .nav-menu-links {
+    right: 0;
   }
 }
 

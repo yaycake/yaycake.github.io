@@ -1,15 +1,13 @@
-
+projectcards{
+  margin: 0 auto;
+}
 .project-cards {
   width: 100%;
-  min-width: 375px;
   height: 70vh;
-  /*border: 3px solid gold;*/
   display: grid;
-  // grid-template-columns: repeat(7, 1fr);
   margin: 0 auto;
   margin-top: 4rem;
   position: relative;
-
 }
 
 .project-card {
@@ -22,9 +20,6 @@
   background-position: left;
   background-size: cover;
 }
-
-
-
 
 .project-title {
   font-size: 4rem;
@@ -50,12 +45,7 @@
 
 }
 
-.project-card:hover >
 
-a {
-  color: black;
-
-}
 
 .freelance.project-card:hover .freelance-title,
 .ubisoft.project-card:hover .ubisoft-title,
@@ -77,8 +67,17 @@ a {
 
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 600px){
+  .project-cards {
+    flex-direction: column;
+    grid-template-rows: auto!important;
+    grid-template-columns: auto!important;
+    margin-top: 2rem;
+      }
   .project-card {
-    width:100%
+    width:100%;
+  }
+  .project-title {
+    display:all;
   }
 }
