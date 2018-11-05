@@ -14,7 +14,7 @@ header > div > a:focus > img {
 
 #grace > h1 {
   margin: 0!important;
-  font-size: 4rem;
+  font-size: 3rem;
   z-index: 0;
 }
 
@@ -28,8 +28,12 @@ header > div > a:focus > img {
   z-index: 90;
 }
 
-.site-name:hover {
+.site-name:hover > a > h1 {
   text-shadow: 4px 4px 6px rgba(107,249,185,.15);
+   // -webkit-text-stroke-width: .25px;
+   // -webkit-text-stroke-color: black;
+   // filter: blur(.25);
+   // color: white;
 }
 
 .site-name:focus{
@@ -48,8 +52,8 @@ header > div > a:focus > img {
 }
 
 .nav-menu-link {
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   display:inline;
   // color: gray;
@@ -65,7 +69,7 @@ header > div > a:focus > img {
  #wechatqr {
   background-size: 100px 100px;
   background-position: center;
-  transition: all 2s ease-out;
+  transition: all .5s ease-out;
  }
 
 #wechatqr:hover {

@@ -12,10 +12,9 @@ projectcards{
 
 .project-card {
   align-items: center;
-  background-color: lavender;
+  // background-color: lavender;
   height: 100%;
   border: 1.5px solid white;
-
   filter: grayscale(1);
   background-position: left;
   background-size: cover;
@@ -28,7 +27,7 @@ projectcards{
   display: none;
   text-align: left;
   color: white;
-  transition: all 5s ease-out;
+  // transition: all 5s ease-out;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 4rem;
@@ -39,11 +38,8 @@ projectcards{
 }
 
 .project-card:hover {
-  // filter:none;
-  /*transform: scale(1.1);*/
   display: all;
   filter: none;
-
 }
 
 
@@ -59,11 +55,14 @@ projectcards{
     display: block;
   }
 
+.journey.project-card .journey-title {
+  font-size: 3rem;
+}
 .journey.project-card:hover .chengdu-title
 
   {
     display: block;
-    font-size: 3rem;
+    // font-size: 3rem;
   }
 
 
@@ -74,11 +73,17 @@ projectcards{
     grid-template-rows: auto!important;
     grid-template-columns: auto!important;
     margin-top: 2rem;
-      }
-  .project-card {
+    background-position: left bottom;
+    // height: 100%;
+
+    .project-card {
     width:100%;
+    // filter: none;
   }
   .project-title {
-    display:all;
+    display: block;
   }
+
+      }
+
 }
