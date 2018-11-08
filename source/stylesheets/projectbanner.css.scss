@@ -87,6 +87,25 @@
   margin-top:3rem;
 
 }
+.project-banner-grid {
+  grid-template-columns: repeat( 3, minmax(100px, .75fr) );
+  grid-template-rows: repeat(3, auto-fill);
+}
+.project-banner-grid>h1{
+  grid-column: 1 / span 3;
+  grid-row: 1 / 2;
+  font-size: 4rem;
+  text-align: left;
+
+  margin: 1rem 0px 0px 0px!important;
+  margin-left: 1rem;
+  background-clip: text;
+}
+
+.project-banner-subtitle {
+  grid-column: 2 / span 2;
+  grid-row: 2 ;
+}
 .introimage{
   height: 400px;
 
