@@ -1,14 +1,14 @@
 .project-wrapper {
   height: 100%;
-  width: 50vw;
-  min-width: 375px;
+  // width: 50vw;
+  // min-width: 375px;
   margin: 0 auto;
   text-align: left;
 }
 
 .project-wrapper>p, .project-wrapper>h3 {
   line-height: 1.5rem;
-  padding: 0 1rem;
+  // padding: 0 1rem;
 }
 
 .project-wrapper > p > img {
@@ -61,7 +61,7 @@ blockquote>p {
   .project-wrapper{
       // padding: .5rem;
   }
-  .project-wrapper {
+  .project-wrapper > h1{
     margin-left: 1rem;
   }
   blockquote {
