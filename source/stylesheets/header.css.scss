@@ -4,7 +4,7 @@ header {
   align-items: baseline;
   z-index: 12;
   width: 95vw;
-  min-width: 375px;
+  // min-width: 375px;
   margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@ header > div > a:focus > img {
   padding-left: 1rem;
   transition: background 5s ease-out;
   mix-blend-mode: overlay;
-  z-index: 90;
+  z-index: 900;
 }
 
 .site-name:hover > a > h1 {
@@ -80,6 +80,8 @@ header > div > a:focus > img {
  }
 
 
+
+
 a:hover > .nav-menu-link {
   // background-color: rgba(107,249,185,.15);
 
@@ -114,6 +116,15 @@ a:focus > .nav-menu-link {
   .nav-menu-links {
     right: 0;
   }
+
+  #wechatqr:focus {
+  border-radius: 0;
+  transform: scale(2,2);
+  border: none;
+  background-size: contain;
+ }
+
+
 }
 
 

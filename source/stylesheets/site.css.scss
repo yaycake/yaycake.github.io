@@ -15,6 +15,10 @@ p {
   font-style: 'Poppins-light';
 }
 
+a:visited{
+  color: black;
+}
+
 .page-wrapper{
   height: 100%;
   width: 95vw;
@@ -32,20 +36,25 @@ p {
 
 }
 
-a {
-  color: black;
-  text-decoration: underline;
-  &:focus,
-  &:hover {
-    transform: scale(1);
-    outline: none;
-
-  }
-  &:visited {
-    color: black;
-
-  }
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+
+// a {
+//   color: black;
+//   text-decoration: underline;
+//   &:focus,
+//   &:hover {
+//     transform: scale(1);
+//     outline: none;
+
+//   }
+//   &:visited {
+//     color: black;
+
+//   }
+// }
 
 
 // - - - -- - grace title
@@ -73,3 +82,19 @@ a {
 
 }
 
+
+@media (hover:hover) {
+  a {
+  color: black;
+  text-decoration: underline;
+  &:focus,
+  &:hover {
+    transform: scale(1);
+    outline: none;
+
+  }
+
+}
+
+
+}

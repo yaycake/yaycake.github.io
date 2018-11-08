@@ -74,10 +74,11 @@ projectcards{
     grid-template-columns: auto!important;
     margin-top: 2rem;
     background-position: left bottom;
+    height: auto;
     // height: 100%;
 
     .project-card {
-    width:100%;
+    // width:100%;
     // filter: none;
   }
   .project-title {
