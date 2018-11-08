@@ -59,7 +59,10 @@ blockquote>p {
 @media screen and (max-width: 600px){
 
   .project-wrapper{
-      padding: .5rem;
+      // padding: .5rem;
+  }
+  .project-wrapper {
+    margin-left: 1rem;
   }
   blockquote {
     padding-left: 40%;
