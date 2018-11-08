@@ -30,6 +30,11 @@ input {
   text-align: center;
 }
 
+input:focus {
+  outline: whitesmoke;
+  background-color: rgba(0,0,0,.04);
+}
+
 #submitbutton {
   background-color: black;
   border-radius: .25rem;
@@ -66,6 +71,11 @@ textarea {
   transition: all .5s ease .1s;
   padding: 1rem;
   text-align: center;
+}
+
+textarea:focus {
+  outline: whitesmoke;
+  background-color: rgba(0,0,0,.04);
 }
 
 #message {
