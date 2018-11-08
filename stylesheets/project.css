@@ -1,13 +1,10 @@
 .project-wrapper {
   height: 100%;
-  width: 50vw;
-  min-width: 375px;
   margin: 0 auto;
   text-align: left; }
 
 .project-wrapper > p, .project-wrapper > h3 {
-  line-height: 1.5rem;
-  padding: 0 1rem; }
+  line-height: 1.5rem; }
 
 .project-wrapper > p > img {
   width: 100%;
@@ -51,11 +48,11 @@ blockquote > p {
   text-shadow: 4px 4px 6px rgba(107, 249, 185, 0.15); }
 
 @media screen and (max-width: 600px) {
-  .project-wrapper {
-    padding: .5rem; }
+  .project-wrapper > h1 {
+    margin-left: 1rem; }
 
   blockquote {
-    padding-left: 40%; }
+    padding-left: 30%; }
 
   .project-banner-subtitle {
     width: 60%; } }

@@ -8,7 +8,6 @@ header {
           align-items: baseline;
   z-index: 12;
   width: 95vw;
-  min-width: 375px;
   margin: 0 auto; }
 
 header > div > a:focus > img {
