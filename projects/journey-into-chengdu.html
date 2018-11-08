@@ -1,0 +1,265 @@
+
+    <!doctype html>
+<html>
+  <head>
+    <meta name="description" content="Grace | Freelance UX and UI Designer Portfolio Website">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Journey Into Chengdu</title>
+
+    <link rel="stylesheet" href="../stylesheets/site.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="../stylesheets/projectcards.css">
+
+    <link rel="stylesheet" href="../stylesheets/project.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectbanner.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectheader.css" async>
+    <link rel="stylesheet" href="../stylesheets/contactform.css" async>
+
+<!--     <link rel="icon"
+      type="image/x-icon"
+      href="../../favicon.png" /> -->
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" async>
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+
+
+    <!-- <div class="project-header-links">
+ <a href="../../../../index.html">
+    <h1>Grace</h1>
+  </a>
+  <div class="project-header-link">
+    <h2>UX | UI | Code</h2>
+  </div>
+</div>
+ -->
+
+
+
+ <header>
+  <div class="site-name">
+    <a href="../../../../index.html" style="text-decoration: none!important;">
+      <h1 style="margin:0!important; font-size: 4rem; ">Grace</h1>
+    </a>
+  <!--   <h3>
+      UX + UI | Design |
+       Front End
+    </h3> -->
+  </div>
+
+  <div class="nav-menu-links">
+
+    <!--   <img id="wechatqr" class="nav-menu-link" src="../../../../images/wechatqr.png" alt="WeChat Grace"> -->
+      <!-- <a href="#"> -->
+      <div class="nav-menu-link" id="wechatqr"
+        style="background-image: url('../../../../images/wechatqr.png');">
+        </div>
+
+      <!-- </a> -->
+
+    <a href="../../../../contact">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-email.svg" alt="Message Grace">
+    </a>
+    <a href="http://www.github.com/yaycake" target="_blank">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-github.svg" alt="Github">
+    </a>
+    <a href="https://www.linkedin.com/in/ygrace" target="_blank">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-linkedin.svg" alt="LinkedIn">
+    </a>
+  </div>
+</header>
+
+
+
+
+
+    
+    <!-- - - - - - Project Banner -->
+    <div class="project-banner">
+      <div class="project-banner-grid">
+        <h1>Journey Into Chengdu</h1>
+        <h2 class="project-banner-subtitle">
+          Unveil The City, Unlock Its Treasures
+        </h2>
+        <div class="project-links">
+            <a class="project-link" href=""><img class="project-icon" src="../../../../images/icons/icon-video.png" alt="Video"></a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="introimage" style="
+      background-image: url(../../../../images/projects/joubanner.png");">
+        <div style="color: white;" class="project-intro-text">
+            <h2>
+              A WeChat Mini Program game to break free of your commute and explore Chengdu.
+            </h2>
+      </div>
+    </div>
+    <!-- -- end of project banner above -->
+
+
+    <div class="project-wrapper" style="position: relative;">
+      <!-- Before Project Yield on project.erb
+      <br> -->
+      <h2 id="hackathon-team-name-code-daddies">Hackathon Team Name: 'Code Daddies'</h2>
+
+<p><a href="https://mp.weixin.qq.com/s/x5X7dCA_kdx_tkw4XcniNA">Free Coding Camp's Chengdu 2018 hackathon</a> had a theme: Code For the City. 48 hours and 9 teams later, Journey Into Chengdu won 'the People's Choice' award (most popular idea).</p>
+
+<p>Dan Engel, Steve Jackson, and I make up the 'Code Daddies' team. Steve received the award for our team.</p>
+
+<p><img src="/images/projects/journey_1.png" alt="fcchackathon" /></p>
+
+<p><img src="/images/projects/journey_8.jpeg" alt="steve" /></p>
+
+<h2 id="the-opportunity">The Opportunity</h2>
+
+<p>We applied the <a href="https://en.wikipedia.org/wiki/Fog_of_war#In_video_games">'fog of war'</a> concept onto real-life mapping to create an on and offline adventure designed to lure you off the beaten path (i.e. subway and routine commutes) and into the alleyways and hidden nooks and crannies of Chengdu.</p>
+
+<p>After all, the city is much bigger than the small community bubbles we find ourselves in.</p>
+
+<p><img src="/images/projects/journey_3.png" alt="explore" /></p>
+
+<p><img src="/images/projects/journey_2.png" alt="my_commute" /></p>
+
+<h2 id="designing-journey-into-chengdu">Designing Journey Into Chengdu</h2>
+
+<p>Icons and achievement badges were created to make a map experience more game like. We could not implement the original inspiration of a 'fog of war' look and feel due to the time and tech constraints.</p>
+
+<p><img src="/images/projects/journey_4.png" alt="tourist_foreigner" /></p>
+
+<p><img src="/images/projects/journey_5.png" alt="panda_boss" /></p>
+
+<h2 id="building-it">Building It</h2>
+
+<p>The WeChat API allowed us access to a user's location; by recording a user's location (when the mini program was open), the map could render where the 'fog' lifted as a user passed through an area of the map, which was gridified by us on the back-end.</p>
+
+<p>Due to the constraints and challenges (see below) of WeChat, Code Daddies decided that the best way to actually build a serious 'Journey' product was in React Native.</p>
+
+<iframe width="100%" height="300px" style="margin: 0 auto" src="https://www.youtube.com/embed/jNQcDpv_7ao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>Tencent maps didn't have an easy way to gridify or customize the map experience in the way we needed– so instead, we used overlay markers that would work the way we wanted them to as long as the user didn't zoom in and out (map markers had to be static image files which could not be rendered responsive).</p>
+
+<p>Storing the data became cumbersome, because the database would have to record and store a user's movement until perpetuity.</p>
+
+<p><img src="/images/projects/journey_6.png" alt="locked" /></p>
+
+<p><img src="/images/projects/journey_7.png" alt="unlocked" /></p>
+
+<h2 id="coverage">Coverage</h2>
+
+<p><a href="https://mp.weixin.qq.com/s/x5X7dCA_kdx_tkw4XcniNA" target="_blank" rel="noopener">FCC 2018黑客松大赛回顾 Hackathon Review</a></p>
+
+      <br>
+      <div class="project-end">
+        <h2>Journey Into Chengdu</h2>
+        <p> <em>last updated on 2018-10-24 03:37 UTC</em>
+        </p>
+      </div>
+
+      <br>
+      <h2>Other Projects</h2>
+      
+  <projectcards>
+
+    <div class="project-cards" style="grid-template-columns: repeat(6, 1fr); grid-template-rows: 1fr;">
+
+<a href="/projects/ubisoft.html">
+          <div class="project-card  ubisoft" style="background-image: url('../../../../images/projects/ubibanner.png');">
+              <h2 class="project-title ubisoft-title">
+                Ubisoft
+              </h2>
+          </div>
+
+</a><a href="/projects/sticker-machine.html">
+          <div class="project-card  sticker machine" style="background-image: url('../../../../images/projects/stibanner.png');">
+              <h2 class="project-title sticker machine-title">
+                Sticker Machine
+              </h2>
+          </div>
+
+</a><a href="/projects/le-wagon.html">
+          <div class="project-card  le wagon" style="background-image: url('../../../../images/projects/lebanner.png');">
+              <h2 class="project-title le wagon-title">
+                Le Wagon
+              </h2>
+          </div>
+
+</a><a href="/projects/yaochima.html">
+          <div class="project-card  yaochima" style="background-image: url('../../../../images/projects/yaobanner.png');">
+              <h2 class="project-title yaochima-title">
+                Yaochima
+              </h2>
+          </div>
+
+</a><a href="/projects/journey-into-chengdu.html">
+          <div class="project-card  journey into chengdu" style="background-image: url('../../../../images/projects/joubanner.png');">
+              <h2 class="project-title journey into chengdu-title">
+                Journey Into Chengdu
+              </h2>
+          </div>
+
+</a><a href="/projects/freelance.html">
+          <div class="project-card  freelance" style="background-image: url('../../../../images/projects/frebanner.png');">
+              <h2 class="project-title freelance-title">
+                Freelance
+              </h2>
+          </div>
+
+</a>      </div>
+    </projectcards>
+
+      <br>
+      <br>
+    <!--   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+    <div class="project-footer">
+      <h3 onclick="topFunction()" id="myBtn" title="go to Top">Back To Top</h3>
+      <a href="../../../../contact">
+        <h3>Contact Me</h3>
+      </a>
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+
+    <script async>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+
+    <footer>
+ <!--  <div>
+    <img class="qrcode"src="../../../../images/wechatqr.png" alt="wechat_yay_cake">
+    <div class="qrcover">
+    </div>
+  </div> -->
+
+ <!--  <div class="nav-menu-link" id="wechatqr"
+        style="background-image: url('../../../../images/wechatqr.png');">
+  </div>
+ -->
+</footer>
+
+
+      <script>
+
+  </script>
+
+  </body>
+</html>
+

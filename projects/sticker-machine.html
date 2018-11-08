@@ -1,0 +1,283 @@
+
+    <!doctype html>
+<html>
+  <head>
+    <meta name="description" content="Grace | Freelance UX and UI Designer Portfolio Website">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Sticker Machine</title>
+
+    <link rel="stylesheet" href="../stylesheets/site.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="../stylesheets/projectcards.css">
+
+    <link rel="stylesheet" href="../stylesheets/project.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectbanner.css" async>
+    <link rel="stylesheet" href="../stylesheets/projectheader.css" async>
+    <link rel="stylesheet" href="../stylesheets/contactform.css" async>
+
+<!--     <link rel="icon"
+      type="image/x-icon"
+      href="../../favicon.png" /> -->
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" async>
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+
+
+    <!-- <div class="project-header-links">
+ <a href="../../../../index.html">
+    <h1>Grace</h1>
+  </a>
+  <div class="project-header-link">
+    <h2>UX | UI | Code</h2>
+  </div>
+</div>
+ -->
+
+
+
+ <header>
+  <div class="site-name">
+    <a href="../../../../index.html" style="text-decoration: none!important;">
+      <h1 style="margin:0!important; font-size: 4rem; ">Grace</h1>
+    </a>
+  <!--   <h3>
+      UX + UI | Design |
+       Front End
+    </h3> -->
+  </div>
+
+  <div class="nav-menu-links">
+
+    <!--   <img id="wechatqr" class="nav-menu-link" src="../../../../images/wechatqr.png" alt="WeChat Grace"> -->
+      <!-- <a href="#"> -->
+      <div class="nav-menu-link" id="wechatqr"
+        style="background-image: url('../../../../images/wechatqr.png');">
+        </div>
+
+      <!-- </a> -->
+
+    <a href="../../../../contact">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-email.svg" alt="Message Grace">
+    </a>
+    <a href="http://www.github.com/yaycake" target="_blank">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-github.svg" alt="Github">
+    </a>
+    <a href="https://www.linkedin.com/in/ygrace" target="_blank">
+      <img class="nav-menu-link" src="../../../../images/icons/icon-linkedin.svg" alt="LinkedIn">
+    </a>
+  </div>
+</header>
+
+
+
+
+
+    
+    <!-- - - - - - Project Banner -->
+    <div class="project-banner">
+      <div class="project-banner-grid">
+        <h1>Sticker Machine</h1>
+        <h2 class="project-banner-subtitle">
+          Level Up Your WeChat Sticker Game
+        </h2>
+        <div class="project-links">
+            <a class="project-link" href=""><img class="project-icon" src="../../../../images/icons/icon-video.png" alt="Video"></a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="introimage" style="
+      background-image: url(../../../../images/projects/stibanner.png");">
+        <div style="color: white;" class="project-intro-text">
+            <h2>
+              A WeChat mini program to discover, share, or save stickers; powered by Giphy.
+            </h2>
+      </div>
+    </div>
+    <!-- -- end of project banner above -->
+
+
+    <div class="project-wrapper" style="position: relative;">
+      <!-- Before Project Yield on project.erb
+      <br> -->
+      <h2 id="wechat-stickers">WeChat Stickers</h2>
+
+<p>are a fun, witty, and cultural treasure trove for everyday social interactions. From private conversations to group banter, it is a badge of coolness and hilarity in the digital community when you produce the perfect sticker at the perfect time.</p>
+
+<iframe width="100%" height="300px" style="margin: 0 auto" src="https://www.youtube.com/embed/LnJNU5GrPpQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="the-opportunity">The Opportunity</h2>
+
+<p>WeChat users discover stickers through adding them from a conversation where it's posted. When you're browsing other kinds of content like sticker galleries, websites, blogs, or Twitter, it's a challenge to be able to add the gif to your WeChat collection due to its size, format, or cross-app compatibility.</p>
+
+<p><img src="/images/projects/sticker_4.png" alt="rec" /></p>
+
+<h2 id="designing-sticker-machine">Designing Sticker Machine</h2>
+
+<p>As WeChat provided the social infrastructure for sharing, I focused on optimizing the visual experience to encourage 'shopping' and sharing stickers at their leisure.</p>
+
+<p>The redesigns between versions 1 &amp; 2 took the margins between stickers away and provided a fuller screen experience.</p>
+
+<p>We decided on 'sticking' the search bar on the bottom (vs. the top) for better access to the human hand holding their mobile device.</p>
+
+<p><img src="/images/projects/sticker_1.png" alt="icons" />
+<img src="/images/projects/sticker_2.png" alt="screens" /></p>
+
+<h2 id="building-the-mini-program">Building The Mini Program</h2>
+
+<p>The Giphy API was easy to work with, and well-documented. The MVP was up in less than two days– the challenges that followed were unique to building a product in China (see: Challenges).</p>
+
+<h2 id="challenges">Challenges</h2>
+
+<p>Publishing a Mini Program requires the ID of a Chinese citizen– we worked with a friend to administer and publish our mini program.</p>
+
+<p>The Great Chinese Firewall was the main challenge: publishing content in China requires a business license.</p>
+
+<p>We solved this by re-routing our calls through a middle man server– our friend's server, which is based in China.</p>
+
+<p>This affected performance– speed of the load and sticker lag– which prompted us to cache common searches through Redis.</p>
+
+<p>The language translation feature was later implemented, but could be improved: cross cultural translations and references was something we did not anticipate, but could very well become a worthy mission.</p>
+
+<blockquote>
+  <h2 id="sticker-machine-reached-upwards-of-10000-visits-within-the-3-4-days-from-launch">Sticker Machine reached upwards of 10,000 visits within the 3-4 days from launch.</h2>
+</blockquote>
+
+<h2 id="launch">Launch</h2>
+
+<p>We hard-launched Sticker Machine at the end of August, 2018 to positive and enthusiastic reception. Sticker Machine reached upwards of 10,000 visits within 3-4 days from launch.</p>
+
+<p><img src="/images/projects/sticker_3.png" alt="visits" /></p>
+
+<p>Generally, people find stickers through WeChat sticker share groups. While that is convenient enough, the stilted, large-group conversation format (300+ people) is inconvenient and not optimal for finding the perfect 'zing' to decorate your wit in an ongoing chat.</p>
+
+<h2 id="giphy">GIPHY</h2>
+
+<p><a href="https://www.giphy.com">Giphy</a> is a website hosting a database of stickers. Accessing Giphy in China does not require a VPN.</p>
+
+<p><img src="/images/projects/sticker_5.png" alt="poweredbygiphy" /></p>
+
+<h2 id="try-it">Try It!</h2>
+
+<p>Scan with your WeChat, or search "Sticker Machine" in WeChat for the mini program.</p>
+
+<p><img src="/images/projects/sticker_6.png" alt="stickermachine" /></p>
+
+<h2 id="coverage">Coverage</h2>
+
+<p><a href="https://mp.weixin.qq.com/s/frnl2ZKI6URYJfF00cuq1g" target="_blank" rel="noopener"> How to Use WeChat Like a Local: a Guidebook by Chengdu Expat</a>
+<!-- ![poweredbygiphy](../images/projects/) --></p>
+
+      <br>
+      <div class="project-end">
+        <h2>Sticker Machine</h2>
+        <p> <em>last updated on 2018-10-14 06:42 UTC</em>
+        </p>
+      </div>
+
+      <br>
+      <h2>Other Projects</h2>
+      
+  <projectcards>
+
+    <div class="project-cards" style="grid-template-columns: repeat(6, 1fr); grid-template-rows: 1fr;">
+
+<a href="/projects/ubisoft.html">
+          <div class="project-card  ubisoft" style="background-image: url('../../../../images/projects/ubibanner.png');">
+              <h2 class="project-title ubisoft-title">
+                Ubisoft
+              </h2>
+          </div>
+
+</a><a href="/projects/sticker-machine.html">
+          <div class="project-card  sticker machine" style="background-image: url('../../../../images/projects/stibanner.png');">
+              <h2 class="project-title sticker machine-title">
+                Sticker Machine
+              </h2>
+          </div>
+
+</a><a href="/projects/le-wagon.html">
+          <div class="project-card  le wagon" style="background-image: url('../../../../images/projects/lebanner.png');">
+              <h2 class="project-title le wagon-title">
+                Le Wagon
+              </h2>
+          </div>
+
+</a><a href="/projects/yaochima.html">
+          <div class="project-card  yaochima" style="background-image: url('../../../../images/projects/yaobanner.png');">
+              <h2 class="project-title yaochima-title">
+                Yaochima
+              </h2>
+          </div>
+
+</a><a href="/projects/journey-into-chengdu.html">
+          <div class="project-card  journey into chengdu" style="background-image: url('../../../../images/projects/joubanner.png');">
+              <h2 class="project-title journey into chengdu-title">
+                Journey Into Chengdu
+              </h2>
+          </div>
+
+</a><a href="/projects/freelance.html">
+          <div class="project-card  freelance" style="background-image: url('../../../../images/projects/frebanner.png');">
+              <h2 class="project-title freelance-title">
+                Freelance
+              </h2>
+          </div>
+
+</a>      </div>
+    </projectcards>
+
+      <br>
+      <br>
+    <!--   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+
+    <div class="project-footer">
+      <h3 onclick="topFunction()" id="myBtn" title="go to Top">Back To Top</h3>
+      <a href="../../../../contact">
+        <h3>Contact Me</h3>
+      </a>
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+
+    <script async>
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+
+    <footer>
+ <!--  <div>
+    <img class="qrcode"src="../../../../images/wechatqr.png" alt="wechat_yay_cake">
+    <div class="qrcover">
+    </div>
+  </div> -->
+
+ <!--  <div class="nav-menu-link" id="wechatqr"
+        style="background-image: url('../../../../images/wechatqr.png');">
+  </div>
+ -->
+</footer>
+
+
+      <script>
+
+  </script>
+
+  </body>
+</html>
+
