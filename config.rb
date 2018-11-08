@@ -45,6 +45,13 @@ page '/*.txt', layout: false
 #   activate :minify_javascript
 # end
 
+# - - - - - deploy
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
+
 
 activate :blog do |blog|
  blog.prefix = "projects"
