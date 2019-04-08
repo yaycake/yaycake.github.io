@@ -3,7 +3,7 @@ projectcards {
 
 .project-cards {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   display: grid;
   margin: 0 auto;
   margin-top: 4rem;
@@ -43,7 +43,8 @@ projectcards {
 .yaochima.project-card:hover .yaochima-title,
 .horizons.project-card:hover .horizons-title,
 .wagon.project-card:hover .wagon-title,
-.machine.project-card:hover .machine-title {
+.machine.project-card:hover .machine-title,
+.jspower.project-card:hover .project-title {
   display: block; }
 
 .journey.project-card .journey-title {
