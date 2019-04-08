@@ -1,0 +1,35 @@
+---
+
+title: JSPower
+date: 2019-04-08 02:31 UTC
+tags:
+  - UX
+  - UI
+  - Brand Strategy
+  - Design
+  - Marketing
+
+previewimage: ../../../../images/projects/jspowerbanner.png
+
+---
+
+## Learning & Discovery
+
+JS Power boasts 17 years of electrical engineering talent, electro-chemistry knowledge, and mechanical engineering genius in their lithium ion battery manufacturing expertise. The biggest challenge for me-- as well as the most exciting motivation-- was learning about the manufacturing process, delving a bit deeper into the technical complexities, and understanding their business model and strategy within the industry.
+
+As the world turns and 5G telecommunications technology rolls out, the rising demand for their services needed a more international face.
+
+## Marketing Strategy
+
+Branding strategy for B2B / industrial services commanded a different approach than the usual retail/end-users; I had to think in broad, global strokes, and gain a deeper understanding of JS Power's position in the competitive landscape. JS Power's advantage was not in competitive prices with huge-scale factories based in China; but their flexibility in building custom applications which require high technical skills and experience; custom cell material selection; and STOBA anti-explosion technology.
+
+While the competition in quality is not easy (Panasonic and LGChem produce reliable cells, and are international household brand names),  JS Power has the potential to scoop up clients designing and manufacturing quality products that start out with a custom or lower minimum quantity order, need a reliable life cycle and want a higher guarantee of safety for their end user.
+
+## Rebranding
+
+The previous logo was an outdated aesthetic; the new logos I designed pushed towards a more stylish but timeless look which displayed an international appeal for strength, reliability, and 'power'.
+
+Color choices of black and orange were to stand out against the target competitor's common "blue" color.
+
+## UX/UI
+

@@ -60,3 +60,4 @@ end
 
 
 page "/projects/*", :layout => "project"
+
