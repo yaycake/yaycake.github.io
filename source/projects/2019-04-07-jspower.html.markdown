@@ -1,5 +1,5 @@
 ---
-title: JSPower
+title: JS Power
 date: 2019-04-07 02:31 UTC
 subtitle: Branding, Marketing, Design, Development, & Consulting
 product: Brand Strategy, Creative Production, UX/UI Design, & Front-End Development
