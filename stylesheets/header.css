@@ -45,7 +45,6 @@ header > div > a:focus > img {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  mix-blend-mode: overlay;
   z-index: 90; }
 
 .nav-menu-link {
