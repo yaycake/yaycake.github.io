@@ -80,6 +80,9 @@ a:focus > .nav-menu-link {
   background-color: #6BF9B9; }
 
 @media screen and (max-width: 600px) {
+  #wechatqr {
+    display: none; }
+
   .section_col_2 {
     display: -webkit-box;
     display: -ms-flexbox;
