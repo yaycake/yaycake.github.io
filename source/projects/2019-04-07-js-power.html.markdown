@@ -50,8 +50,7 @@ The main function of the website is to: 1. provide general information and legit
 
 As the company geared towards the move to their 1Gwh factory in Zhunan, Taiwan, and most of the company staffed by engineers, much of the creative direction was my responsibility.
 
-
-I handled everything from photographing machinery and the new 1GWh factory to product shoots and graphic design to test different marketing collateral to match their new brand-look.
+I handled everything from photographing machinery and the new 1GWh factory to product shoots and graphic design to test different marketing collateral to match their new brand-look. I created and designed all icons on the website.
 
 ![jspower_bannerdark](../images/projects/jsp_banner1.png)
 
@@ -69,7 +68,10 @@ While consulting JS Power on overseas marketing strategies, I also helped resear
 
 ## Project Status
 
-Currently, the JS Power Dev Ops team is working to deploy the Ruby on Rails app to their server. I will also work with them to configure ActionMailer once deployed before completely concluding the project.
+Currently, the website is up and running after working with the dev ops team to deploy my first Ruby on Rails webapp (hey, I learned a little Linux!) with Phusion Passenger standalone on the company web server (the server administrator has never worked with deploying Rails webapps, so I had to learn...fast!). 
 
+I also designed, drafted, and turned over an SOP (standards of procedure) to update the website content and products through the admin dashboard I created. 
+
+You can view the website [here](http://www.jspower.com.tw). 
 
 
